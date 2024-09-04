@@ -11,14 +11,26 @@ public class InventorySystem : MonoBehaviour
     [SerializeField] private FishingManager fishingManager;
     [SerializeField] private TMP_Text pastryCountTxt;
     [SerializeField] private TMP_Text moneeCountTxt;
+    [SerializeField] private TMP_Text stressCountTxt;
     public double monee = 0;
     public double moneeIncrement = 1;
+    public int stress = 0;
     
 
     public void addFishCount()
     {
         fishCount++;
         pastryCountTxt.text = "Pastries: " + fishCount;
+        if (stress < 100)
+        {
+            stress += 5;
+            stressCountTxt.text = "Stress: " + stress;
+            gameObject.GetComponent<PlayerMovement>().moveSpeed = 5;
+        }
+        else if (stress >= 100)
+        {
+            gameObject.GetComponent<PlayerMovement>().moveSpeed = 2;
+        }
     }
 
     public void sellFsh()
