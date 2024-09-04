@@ -15,6 +15,7 @@ public class InventorySystem : MonoBehaviour
     public double monee = 0;
     public double moneeIncrement = 1;
     public int stress = 0;
+    public bool newDay = true;
     
 
     public void addFishCount()
@@ -31,6 +32,26 @@ public class InventorySystem : MonoBehaviour
         {
             gameObject.GetComponent<PlayerMovement>().moveSpeed = 2;
         }
+    }
+
+    public void chill()
+    {
+        if (newDay != false)
+        {
+            if (stress > 75)
+            {
+                stress -= 75;
+                stressCountTxt.text = "Stress: " + stress;
+            }
+            else
+            {
+                stress = 0;
+                stressCountTxt.text = "Stress: " + stress;
+            }
+            newDay = false;
+        }
+        
+        
     }
 
     public void sellFsh()
@@ -59,6 +80,10 @@ public class InventorySystem : MonoBehaviour
         fishCollection.Clear();
         pastryCountTxt.text = "Pastries: " + fishCount;
         moneeCountTxt.text = "Monee: " + monee;
+        stress = 0;
+        stressCountTxt.text = "Stress: " + stress;
+        newDay = true;
+        gameObject.GetComponent<PlayerMovement>().moveSpeed = 5;
     }
 
     public void updateMoneeTxt()

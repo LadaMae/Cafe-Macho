@@ -7,6 +7,7 @@ public class ServiceManager : MonoBehaviour
     [SerializeField] private GameObject serviceUI;
     [SerializeField] private TMP_Text pastryCount;
     [SerializeField] private InventorySystem inventorySystem;
+    [SerializeField] private DeskManager deskManager;
 
     public void showServiceUI()
     {
