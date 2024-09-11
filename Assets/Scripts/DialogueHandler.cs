@@ -32,7 +32,16 @@ public class DialogueHandler : MonoBehaviour
             DialogueLine currLine = dialogueObject.dialogueLines[i];
             dialogueText.text = currLine.dialogueText;
             speakerName.text = currLine.speakerName;
-            speakerImage.sprite = currLine.speakerSprite;
+            if (speakerImage.sprite != null)
+            {
+                speakerImage.gameObject.SetActive(true);
+                speakerImage.sprite = currLine.speakerSprite;
+            }
+            else 
+            {
+                speakerImage.gameObject.SetActive(false);
+            }
+
 
             //The following line of code makes it so that the for loop is paused until the user clicks the left mouse button.
             yield return new WaitUntil(()=>Input.GetMouseButtonDown(0));
