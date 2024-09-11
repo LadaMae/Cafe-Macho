@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Boris_2a1a1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: Ok, what size do you wear again?
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Size XXXXXXXXXXL, thanks for being so understanding boss!\r"
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Of course! It\u2019s not your fault, your big buff man bod is
+      hard to fit clothes for."
+  optionObjects: []
