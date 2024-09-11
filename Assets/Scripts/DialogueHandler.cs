@@ -32,7 +32,7 @@ public class DialogueHandler : MonoBehaviour
             DialogueLine currLine = dialogueObject.dialogueLines[i];
             dialogueText.text = currLine.dialogueText;
             speakerName.text = currLine.speakerName;
-            if (speakerImage.sprite != null)
+            if (speakerImage != null)
             {
                 speakerImage.gameObject.SetActive(true);
                 speakerImage.sprite = currLine.speakerSprite;

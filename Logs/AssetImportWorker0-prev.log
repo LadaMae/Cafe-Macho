@@ -16,6 +16,9 @@ C:/Users/mjmer/OneDrive/Documents/GitHub/Cafe-Macho
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 55301
 Successfully changed project path to: C:/Users/ldima/wkspaces/Cafe Macho
 C:/Users/ldima/wkspaces/Cafe Macho
@@ -56,12 +59,16 @@ C:/Users/mjmer/OneDrive/Documents/GitHub/Cafe-Macho
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 Player connection [56796] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1576552001 [EditorId] 1576552001 [Version] 1048832 [Id] WindowsEditor(7,Layduhs-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [56796] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1576552001 [EditorId] 1576552001 [Version] 1048832 [Id] WindowsEditor(7,Layduhs-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
 Refreshing native plugins compatible for Editor in 18.06 ms, found 4 plugins.
+<<<<<<< Updated upstream
 =======
 Player connection [34332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1611360976 [EditorId] 1611360976 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JEV5ISF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -69,6 +76,8 @@ Player connection [34332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1611
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 659.14 ms, found 4 plugins.
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
@@ -86,13 +95,18 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 >>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.013399 seconds.
 - Loaded All Assemblies, in  0.666 seconds
@@ -100,8 +114,13 @@ Registered in 0.013399 seconds.
 Registered in 0.561964 seconds.
 - Loaded All Assemblies, in  2.115 seconds
 >>>>>>> Stashed changes
+=======
+Registered in 0.013399 seconds.
+- Loaded All Assemblies, in  0.666 seconds
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.428 seconds
 Domain Reload Profiling: 1092ms
@@ -110,6 +129,11 @@ Domain Reload Profiling: 1092ms
 - Finished resetting the current domain, in  0.855 seconds
 Domain Reload Profiling: 2965ms
 	BeginReloadAssembly (378ms)
+>>>>>>> Stashed changes
+=======
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 1092ms
+	BeginReloadAssembly (234ms)
 >>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
@@ -139,6 +163,7 @@ Domain Reload Profiling: 2965ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (159ms)
 			ProcessInitializeOnLoadMethodAttributes (55ms)
+<<<<<<< Updated upstream
 =======
 		CreateAndSetChildDomain (3ms)
 	RebuildCommonClasses (95ms)
@@ -164,6 +189,8 @@ Domain Reload Profiling: 2965ms
 			ProcessInitializeOnLoadAttributes (465ms)
 			ProcessInitializeOnLoadMethodAttributes (166ms)
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,11 +199,16 @@ Domain Reload Profiling: 2965ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.049 seconds
 Refreshing native plugins compatible for Editor in 10.25 ms, found 4 plugins.
 =======
 - Loaded All Assemblies, in  1.983 seconds
 Refreshing native plugins compatible for Editor in 12.10 ms, found 4 plugins.
+>>>>>>> Stashed changes
+=======
+- Loaded All Assemblies, in  1.049 seconds
+Refreshing native plugins compatible for Editor in 10.25 ms, found 4 plugins.
 >>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -184,6 +216,7 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.061 seconds
 Domain Reload Profiling: 2102ms
@@ -198,6 +231,15 @@ Domain Reload Profiling: 3256ms
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 <<<<<<< Updated upstream
+=======
+- Finished resetting the current domain, in  1.061 seconds
+Domain Reload Profiling: 2102ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+>>>>>>> Stashed changes
 		CreateAndSetChildDomain (26ms)
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (16ms)
@@ -232,6 +274,7 @@ Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 71 unused Assets / (245.9 KB). Loaded Objects now: 4520.
 Memory consumption went from 152.1 MB to 151.9 MB.
 Total: 6.832800 ms (FindLiveObjects: 0.740400 ms CreateObjectMapping: 0.361000 ms MarkObjects: 5.371200 ms  DeleteObjects: 0.357300 ms)
+<<<<<<< Updated upstream
 =======
 		CreateAndSetChildDomain (46ms)
 	RebuildCommonClasses (69ms)
@@ -268,6 +311,8 @@ Unloading 71 unused Assets / (246.4 KB). Loaded Objects now: 4516.
 Memory consumption went from 146.4 MB to 146.2 MB.
 Total: 10.066800 ms (FindLiveObjects: 0.682500 ms CreateObjectMapping: 0.714800 ms MarkObjects: 8.250200 ms  DeleteObjects: 0.417500 ms)
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -286,6 +331,9 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   Time since last request: 1039538.716853 seconds.
   path: Assets/Assets/DialogueObjects/Boris_2.asset
   artifactKey: Guid(ec0f16c1bd85c724da2a6a774d4bc4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -412,6 +460,7 @@ Received Import Request.
 Start importing Assets/Assets/DialogueObjects/Boris_2a1.asset using Guid(ed551b101609102448ac0fdc9295544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3cf61b20bd1426bd76f4f8375b1c3') in 0.001363 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+<<<<<<< Updated upstream
 =======
   Time since last request: 2388331.821356 seconds.
   path: Assets/Assets/DialogueObjects/TestDialogue_1.asset
@@ -1145,4 +1194,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
