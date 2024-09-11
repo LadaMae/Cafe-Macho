@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[System.Serializable]
-public class OptionObject
+[CreateAssetMenu(menuName = "DialogueSystem/OptionObject")]
+public class OptionObject : ScriptableObject
 {
     public string option;
-    public DialogueObject[] dialogueObjects;
+    public DialogueObject dialogueObjects;
 }

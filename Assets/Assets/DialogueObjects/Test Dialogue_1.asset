@@ -20,6 +20,5 @@ MonoBehaviour:
     speakerSprite: {fileID: 21300000, guid: 9c59d432025b77349b556240c2efee67, type: 3}
     dialogueText: I crave ur mom :D
   optionObjects:
-  - option: 
-    dialogueObjects:
-    - {fileID: 0}
+  - {fileID: 11400000, guid: beaafda001777ab44932bd001583f963, type: 2}
+  - {fileID: 11400000, guid: e85952f06d6b2d745a2067e954053167, type: 2}

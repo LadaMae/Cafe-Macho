@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class DialogueHandler : MonoBehaviour
 {
@@ -10,16 +11,19 @@ public class DialogueHandler : MonoBehaviour
 	[SerializeField] private TMP_Text dialogueText;
     [SerializeField] private Image speakerImage;
     [SerializeField] private TMP_Text speakerName;
-	// public DialogueObject currentDialogue;
-    public bool isAuto;
-    public float autoTime;
-    public bool textSpeed;
+    [SerializeField] private GameObject option1Button;
+    [SerializeField] private TMP_Text option1text;
+    [SerializeField] private GameObject option2Button;
+    [SerializeField] private TMP_Text option2text;
+
+    private OptionObject option1Object;
+    private OptionObject option2Object;
 
     public void TriggerDialogue(DialogueObject dialogueObject)
     {
         StartCoroutine(MoveThroughDialogue(dialogueObject));
     }
-    
+
     private IEnumerator MoveThroughDialogue(DialogueObject dialogueObject)
     {
         dialogueBox.SetActive(true);
@@ -35,7 +39,34 @@ public class DialogueHandler : MonoBehaviour
             //The following line of code makes the coroutine wait for a frame so as the next WaitUntil is not skipped
             yield return null;
         }
-        dialogueBox.SetActive(false);
+        if (dialogueObject.optionObjects.Length > 0)
+        {
+            option1Button.SetActive(true);
+            option1text.text = dialogueObject.optionObjects[0].option;
+            option1Object = dialogueObject.optionObjects[0];
+            if (dialogueObject.optionObjects.Length == 2)
+            {
+                option2Button.SetActive(true);
+                option2text.text = dialogueObject.optionObjects[1].option;
+                option2Object = dialogueObject.optionObjects[1];
+            }
+
+        }
+        else
+        {
+            dialogueBox.SetActive(false);
+        }
+        
+    }
+
+    public void optionsButtonClick(int option)
+    {
+        option1Button.SetActive(false);
+        option2Button.SetActive(false);
+        if (option == 1)
+            StartCoroutine(MoveThroughDialogue(option1Object.dialogueObjects));
+        else if (option == 2)
+            StartCoroutine(MoveThroughDialogue(option2Object.dialogueObjects));
     }
 }
 

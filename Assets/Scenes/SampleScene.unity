@@ -518,7 +518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &295329902
 RectTransform:
   m_ObjectHideFlags: 0
@@ -582,7 +582,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 295329904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1248658564}
+        m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
+        m_MethodName: optionsButtonClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &295329904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2175,7 +2187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &993888208
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2605,9 +2617,10 @@ MonoBehaviour:
   dialogueText: {fileID: 845340365}
   speakerImage: {fileID: 207068630}
   speakerName: {fileID: 452758455}
-  isAuto: 0
-  autoTime: 0
-  textSpeed: 0
+  option1Button: {fileID: 1546702504}
+  option1text: {fileID: 1864215841}
+  option2Button: {fileID: 295329901}
+  option2text: {fileID: 552132683}
 --- !u!4 &1248658565
 Transform:
   m_ObjectHideFlags: 0
@@ -3031,7 +3044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1546702505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3095,7 +3108,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1546702507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1248658564}
+        m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
+        m_MethodName: optionsButtonClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1546702507
 MonoBehaviour:
   m_ObjectHideFlags: 0
