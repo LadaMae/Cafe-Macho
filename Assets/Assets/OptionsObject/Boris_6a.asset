@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Boris_6a
   m_EditorClassIdentifier: 
   option: 'I love it! It matches your pants really well. '
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: 0a396fa8ae92c964480ec4588ec4e06b, type: 2}

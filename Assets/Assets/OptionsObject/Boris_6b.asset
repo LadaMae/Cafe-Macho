@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c6ea2cc1cd16540b2606e2c929e989, type: 3}
   m_Name: Boris_6b
   m_EditorClassIdentifier: 
-  option: 
-  dialogueObjects: {fileID: 0}
+  option: You can really pull off any bow tie!
+  dialogueObjects: {fileID: 11400000, guid: fbd2b5d0f56af764686043745c21ad37, type: 2}
