@@ -8,6 +8,7 @@ public class ServiceManager : MonoBehaviour
     [SerializeField] private TMP_Text pastryCount;
     [SerializeField] private InventorySystem inventorySystem;
     [SerializeField] private DeskManager deskManager;
+    public Animator buddyAnimator;
 
     public void showServiceUI()
     {
@@ -20,5 +21,7 @@ public class ServiceManager : MonoBehaviour
     {
         inventorySystem.sellFsh();
     }
+
+    
 
 }
