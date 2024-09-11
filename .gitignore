@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Library/ArtifactDB
+Library/Bee/backend1.traceevents
+Library/Bee/fullprofile.json
+Library/Bee/tundra.digestcache
+Library/ilpp.pid
+Library/SceneVisibilityState.asset
+Library/SourceAssetDB
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
+Logs/shadercompiler-AssetImportWorker0.log
