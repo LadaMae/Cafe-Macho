@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Hudson_7a1a1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Boss?!??! Aren\u2019t you supposed to be happy for me!?"
+  optionObjects:
+  - {fileID: 11400000, guid: 0aff480bde5897846bce354af359f753, type: 2}
