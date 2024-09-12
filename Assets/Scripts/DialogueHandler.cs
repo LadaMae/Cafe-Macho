@@ -15,6 +15,7 @@ public class DialogueHandler : MonoBehaviour
     [SerializeField] private TMP_Text option1text;
     [SerializeField] private GameObject option2Button;
     [SerializeField] private TMP_Text option2text;
+    [SerializeField] private ServiceManager serviceManager;
 
     private OptionObject option1Object;
     private OptionObject option2Object;
@@ -48,6 +49,8 @@ public class DialogueHandler : MonoBehaviour
             //The following line of code makes the coroutine wait for a frame so as the next WaitUntil is not skipped
             yield return null;
         }
+
+        //shows options
         if (dialogueObject.optionObjects.Length > 0)
         {
             option1Button.SetActive(true);
@@ -64,6 +67,7 @@ public class DialogueHandler : MonoBehaviour
         else
         {
             dialogueBox.SetActive(false);
+            serviceManager.moveNPCDownCO();
         }
         
     }
@@ -73,9 +77,28 @@ public class DialogueHandler : MonoBehaviour
         option1Button.SetActive(false);
         option2Button.SetActive(false);
         if (option == 1)
-            StartCoroutine(MoveThroughDialogue(option1Object.dialogueObjects));
+        {
+            if (option1Object.dialogueObjects == null)
+            {
+                dialogueBox.SetActive(false);
+                serviceManager.moveNPCDownCO();
+            }
+            else
+                StartCoroutine(MoveThroughDialogue(option1Object.dialogueObjects));
+        }
+            
         else if (option == 2)
-            StartCoroutine(MoveThroughDialogue(option2Object.dialogueObjects));
+        {
+            if (option2Object.dialogueObjects == null)
+            {
+                dialogueBox.SetActive(false);
+                serviceManager.moveNPCDownCO();
+            }
+                
+            else
+                StartCoroutine(MoveThroughDialogue(option2Object.dialogueObjects));
+        }
+            
     }
 }
 

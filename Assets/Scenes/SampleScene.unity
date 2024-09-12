@@ -569,7 +569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &278536329
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2951,6 +2951,7 @@ MonoBehaviour:
   option1text: {fileID: 1864215841}
   option2Button: {fileID: 295329901}
   option2text: {fileID: 552132683}
+  serviceManager: {fileID: 1315948523}
 --- !u!4 &1248658565
 Transform:
   m_ObjectHideFlags: 0

@@ -55,8 +55,14 @@ public class ServiceManager : MonoBehaviour
             chosenNPC.timesTalkedTo++;
         }
 
-        // Move NPC down
-        yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+        // Move NPC down coroutine
+        //Commented in case we want to use it later
+        //yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+    }
+
+    public void moveNPCDownCO()
+    {
+        StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
     }
 
     // Coroutine to move the NPC up
