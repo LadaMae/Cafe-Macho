@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
     dialogueText: Sorry, this one was too small and I broke it.
   optionObjects:
   - {fileID: 11400000, guid: 4dafb1ab66be4744b896c136c2cf09f1, type: 2}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Boris_2a1a
   m_EditorClassIdentifier: 
   option: Ok, I will order you a new one
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: 178097839b3061d468514cfc5f1418c2, type: 2}

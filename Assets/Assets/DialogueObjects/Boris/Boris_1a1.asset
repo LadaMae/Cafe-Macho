@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
     dialogueText: "Going good, lots of compliments on my bow tie!\r"
   - speakerName: You
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
     dialogueText: "That\u2019s great, keep up the good work!\r"
   optionObjects: []

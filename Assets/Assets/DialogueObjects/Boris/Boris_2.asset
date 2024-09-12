@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
     dialogueText: Boss could I get a new apron?
   optionObjects:
   - {fileID: 11400000, guid: 61ae26cc722bd2d43aa9977fcd19b4fb, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: cddaf7159c570c849860c6cb2b6d6f73, type: 3}
     dialogueText: "Boss, do you think I\u2019m handsome?"
   optionObjects:
   - {fileID: 11400000, guid: c356a75dced7d03408a03bd802700887, type: 2}

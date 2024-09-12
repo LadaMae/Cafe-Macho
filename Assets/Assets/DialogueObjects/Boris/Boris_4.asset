@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
     dialogueText: "They raised the price of the gym membership this month\u2026"
   optionObjects:
   - {fileID: 11400000, guid: 34399f26025449243bd3c36d84502899, type: 2}

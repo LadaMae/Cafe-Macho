@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Boris_2a1b
   m_EditorClassIdentifier: 
   option: "Or\u2026 I could see your hot man bod for the whole day "
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: fe2d2b1e24390a544ac69a8af7e40f9a, type: 2}

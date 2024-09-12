@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: cddaf7159c570c849860c6cb2b6d6f73, type: 3}
     dialogueText: "I want my relationship to be all natural. My grandfather would
       be so disappointed to hear that I met my girlfriend on Tinder! He met my grandmother
       when he was a soldier and she was a nurse\u2026\r\n"

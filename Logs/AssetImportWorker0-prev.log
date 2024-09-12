@@ -15,7 +15,7 @@ C:/Users/Sumi Hayasakura/Documents/GitHub/Cafe-Macho
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53244
+53310
 Successfully changed project path to: C:/Users/Sumi Hayasakura/Documents/GitHub/Cafe-Macho
 C:/Users/Sumi Hayasakura/Documents/GitHub/Cafe-Macho
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Sumi Hayasakura/Documents/GitHub/Cafe-Macho
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16104] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3504462917 [EditorId] 3504462917 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S6AEJ91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18188] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 794127245 [EditorId] 794127245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S6AEJ91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16104] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3504462917 [EditorId] 3504462917 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S6AEJ91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18188] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 794127245 [EditorId] 794127245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S6AEJ91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 11.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009291 seconds.
-- Loaded All Assemblies, in  0.452 seconds
+Registered in 0.008719 seconds.
+- Loaded All Assemblies, in  0.385 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.354 seconds
-Domain Reload Profiling: 805ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 700ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (163ms)
-		LoadAssemblies (131ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (145ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (355ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (282ms)
+		SetupLoadedEditorAssemblies (251ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (198ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 805ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.815 seconds
-Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.775 seconds
-Domain Reload Profiling: 1586ms
-	BeginReloadAssembly (188ms)
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (511ms)
-		LoadAssemblies (417ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (324ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (776ms)
+	FinalizeReload (692ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (576ms)
+		SetupLoadedEditorAssemblies (520ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.02 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 71 unused Assets / (245.8 KB). Loaded Objects now: 4516.
-Memory consumption went from 146.8 MB to 146.5 MB.
-Total: 3.593300 ms (FindLiveObjects: 0.339100 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.883300 ms  DeleteObjects: 0.253500 ms)
+Memory consumption went from 146.8 MB to 146.6 MB.
+Total: 3.622600 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.162500 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.237200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,110 +180,505 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 208562.217848 seconds.
-  path: Assets/Assets
-  artifactKey: Guid(a0cc25b2e85f9c94093b0c5d48c46140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(a0cc25b2e85f9c94093b0c5d48c46140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b70fe315e903d4ac46d9bcd4101fac') in 0.002705 seconds
+  Time since last request: 208945.813584 seconds.
+  path: Assets/Assets/DialogueObjects
+  artifactKey: Guid(a717732e6cc2c5f4bb99bfe54afbb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects using Guid(a717732e6cc2c5f4bb99bfe54afbb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc72b8ef39ecd85d03bf2c0d29045dbd') in 0.003213 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 16.066102 seconds.
-  path: Assets/Assets/DialogueObjects/Test Dialogue_1.asset
-  artifactKey: Guid(5e6afc6ee02d55547bfae8f1610d88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DialogueObjects/Test Dialogue_1.asset using Guid(5e6afc6ee02d55547bfae8f1610d88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67752833d66cfb10aeab5431076dffc') in 0.019105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/DialogueObjects/TestDialogue_1b.asset
-  artifactKey: Guid(d9ba81421191949418781c49b9c19fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DialogueObjects/TestDialogue_1b.asset using Guid(d9ba81421191949418781c49b9c19fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d75756f9a0f4a2815145086acb4d184') in 0.001997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.648898 seconds.
-  path: Assets/Assets/OptionsObject/Boris_1a.asset
-  artifactKey: Guid(34fe104886ee5d94cb4bda3253cb018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_1a.asset using Guid(34fe104886ee5d94cb4bda3253cb018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592dd43374284c8bf9a091b9ec7b143a') in 0.002610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.036633 seconds.
-  path: Assets/Assets/OptionsObject/Boris_2a1a.asset
-  artifactKey: Guid(4dafb1ab66be4744b896c136c2cf09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_2a1a.asset using Guid(4dafb1ab66be4744b896c136c2cf09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5124d1a622fc2418646ceac029c44c7b') in 0.001662 seconds
+  Time since last request: 2.792808 seconds.
+  path: Assets/Assets/DialogueObjects/New Dialogue Object.asset
+  artifactKey: Guid(197e943d04be7744bb69f9fe85602674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/New Dialogue Object.asset using Guid(197e943d04be7744bb69f9fe85602674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0a70f3153491acabf32c6758eed03d') in 0.010645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/OptionsObject/Boris_5b.asset
-  artifactKey: Guid(7e0d0b9bb65b27f4282a4bcec230b4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_5b.asset using Guid(7e0d0b9bb65b27f4282a4bcec230b4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c82a507dd05e062f64b609b71f958d') in 0.001381 seconds
+  Time since last request: 8.208859 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson
+  artifactKey: Guid(d45bb4e0a4090db46ab71dd06749417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson using Guid(d45bb4e0a4090db46ab71dd06749417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689800840daf6c317d3df89953a56fbc') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.341517 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_1.asset
+  artifactKey: Guid(7d95fe4545b5eb444bc5c5c01ef57667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_1.asset using Guid(7d95fe4545b5eb444bc5c5c01ef57667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600a1a2863eb969b4277243a190c93ac') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.170083 seconds.
+  path: Assets/Assets/OptionsObject
+  artifactKey: Guid(1d48d54f891334143bd365f15976e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject using Guid(1d48d54f891334143bd365f15976e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c768c382f832bfc1ddc7565a7fa519d8') in 0.000803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.829101 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_1.asset
+  artifactKey: Guid(b91ecd9c0dc170442a2e4994463f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_1.asset using Guid(b91ecd9c0dc170442a2e4994463f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8ee7cca047268be22a95f967e7a277') in 0.001166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.487204 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_1a.asset
+  artifactKey: Guid(b91ecd9c0dc170442a2e4994463f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_1a.asset using Guid(b91ecd9c0dc170442a2e4994463f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b7312e7d7ffe13aa6c21ade81c1811') in 0.001368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.499993 seconds.
+  path: Assets/Assets/OptionsObject/Hudson 1b.asset
+  artifactKey: Guid(87e5e504d4aa1a34198a2b815c6e28b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson 1b.asset using Guid(87e5e504d4aa1a34198a2b815c6e28b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0156ac5c3232a8418674fd2d37c84e67') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.133603 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_1a1.asset
+  artifactKey: Guid(ec006792674877b438e59774e2551851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_1a1.asset using Guid(ec006792674877b438e59774e2551851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1b0b3626b38192932960705ddface9') in 0.001250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.138663 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_1b1.asset
+  artifactKey: Guid(e8e1147a8afd26b4a94e307a10d1178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_1b1.asset using Guid(e8e1147a8afd26b4a94e307a10d1178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c71a3f2df10a5992548d683a0746718') in 0.001039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.654495 seconds.
+  path: Assets/Assets/DialogueObjects/Boris/Boris_6a1.asset
+  artifactKey: Guid(0a396fa8ae92c964480ec4588ec4e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Boris/Boris_6a1.asset using Guid(0a396fa8ae92c964480ec4588ec4e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e553dd145d6f2c095825db17002ecf') in 0.001486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 85.583187 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_1a1a.asset
+  artifactKey: Guid(726e3536de4ae4a4bb22d09ee5dc7b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_1a1a.asset using Guid(726e3536de4ae4a4bb22d09ee5dc7b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f698cc76d658b7536789dee7a130ff') in 0.001173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.381220 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_1b1a.asset
+  artifactKey: Guid(cba6eeb77a035134ebe27fb1586c282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_1b1a.asset using Guid(cba6eeb77a035134ebe27fb1586c282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e82187429ba5d68d3e15e3bbe7c4e0') in 0.001193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 119.195916 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_2.asset
+  artifactKey: Guid(0fdbf59bb8a0f274dafa8b2e171365b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_2.asset using Guid(0fdbf59bb8a0f274dafa8b2e171365b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d1804e1cc706351e58111df8b43e28') in 0.001048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 78.182761 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_2a.asset
+  artifactKey: Guid(1b259b1557aeaea44882d85460441a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_2a.asset using Guid(1b259b1557aeaea44882d85460441a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb5c9ee2c4327b4f48821869772d9d') in 0.000999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.329959 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_2b.asset
+  artifactKey: Guid(00161e43e10951a43ba4e3822468254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_2b.asset using Guid(00161e43e10951a43ba4e3822468254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc56e06d2bb0a81db989c6a15a69c5b') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.648859 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_2a1.asset
+  artifactKey: Guid(da01269e3592e1d4899d944b00e84c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_2a1.asset using Guid(da01269e3592e1d4899d944b00e84c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf4e3843d7ee982ef17b2b9a26589a8') in 0.001088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 49.789090 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/New Dialogue Object.asset
+  artifactKey: Guid(609b3e859b5e28b40b047f8b43836319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/New Dialogue Object.asset using Guid(609b3e859b5e28b40b047f8b43836319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca5cfe55c9095497956116bd7cc178') in 0.001678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.124620 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_2b1.asset
+  artifactKey: Guid(609b3e859b5e28b40b047f8b43836319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_2b1.asset using Guid(609b3e859b5e28b40b047f8b43836319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f909c28fc4063f946a69a1d7f65b3ac1') in 0.001346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 55.768429 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_3.asset
+  artifactKey: Guid(7b12bf2a64ab53443a36da6879b93af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_3.asset using Guid(7b12bf2a64ab53443a36da6879b93af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1355cfcb842c899d95b30690432fd8') in 0.001456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 75.230286 seconds.
+  path: Assets/Assets/OptionsObject/Hudson 3a.asset
+  artifactKey: Guid(3e28308c760a04c4ba85e6e0c9e8f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson 3a.asset using Guid(3e28308c760a04c4ba85e6e0c9e8f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eb6d232257735b6ed5a7b0246e851a') in 0.000954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.247311 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_3a.asset
+  artifactKey: Guid(3e28308c760a04c4ba85e6e0c9e8f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_3a.asset using Guid(3e28308c760a04c4ba85e6e0c9e8f262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f57b8aeeeff91b64621098057900fb4') in 0.001481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.060015 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_1b.asset
+  artifactKey: Guid(87e5e504d4aa1a34198a2b815c6e28b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_1b.asset using Guid(87e5e504d4aa1a34198a2b815c6e28b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7591b89189991fbb0d9703e625d20e9') in 0.001350 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.041116 seconds.
-  path: Assets/Assets/OptionsObject/Option 2.asset
-  artifactKey: Guid(e85952f06d6b2d745a2067e954053167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Option 2.asset using Guid(e85952f06d6b2d745a2067e954053167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284b5190d08bd324e2f9d3e76307643d') in 0.003615 seconds
+  Time since last request: 17.279061 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_3a1.asset
+  artifactKey: Guid(cbc03b6297941e740879af03a688a7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_3a1.asset using Guid(cbc03b6297941e740879af03a688a7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3573f6b575fde1a6d227fa5026b22e97') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.330496 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_34.asset
+  artifactKey: Guid(d3a13a1d2dbe6e04b869dc69ffb6e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_34.asset using Guid(d3a13a1d2dbe6e04b869dc69ffb6e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f14bf5538aa8744bb7dca0cc8f29e9') in 0.001147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.746201 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_4.asset
+  artifactKey: Guid(d3a13a1d2dbe6e04b869dc69ffb6e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_4.asset using Guid(d3a13a1d2dbe6e04b869dc69ffb6e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47684960d2a8309b935f90e6e0a64656') in 0.001107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.673973 seconds.
+  path: Assets/Assets/OptionsObject/Husdon_4a.asset
+  artifactKey: Guid(e72be1efe827c8b41bd017b30ccff959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Husdon_4a.asset using Guid(e72be1efe827c8b41bd017b30ccff959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c33eca8b2717a98be375436e9a9855') in 0.001004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.114363 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_4a1.asset
+  artifactKey: Guid(6477cf14418936c44b80e5dc7fdfbd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_4a1.asset using Guid(6477cf14418936c44b80e5dc7fdfbd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d880faa8bb40bba1b43de45aa0a34f5') in 0.001041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.237760 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_4a1a.asset
+  artifactKey: Guid(1924a67ecfa890147bf0f7b35da8de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_4a1a.asset using Guid(1924a67ecfa890147bf0f7b35da8de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a46cde5ddcad326635e9669909dd4f8') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 72.118510 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_5.asset
+  artifactKey: Guid(d15774e113c249441ad856f2d21a72bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_5.asset using Guid(d15774e113c249441ad856f2d21a72bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc222197a57073d3e6e73cb982852b9') in 0.001168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.704527 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_5a.asset
+  artifactKey: Guid(61cf911afa6be00478a1bc3f4fefc360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_5a.asset using Guid(61cf911afa6be00478a1bc3f4fefc360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1172be15affaf3968a54468fc7e8829') in 0.001017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.881656 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_5b.asset
+  artifactKey: Guid(3018e4cfca344ef4a820603740c0d7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_5b.asset using Guid(3018e4cfca344ef4a820603740c0d7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713236de8617b52de8cc74692cccb500') in 0.001162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.800032 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson.asset
+  artifactKey: Guid(93f51a1675bea1447a669c21d1382e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson.asset using Guid(93f51a1675bea1447a669c21d1382e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732d4768db981cc3f86b93086f360ea0') in 0.001035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.404268 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_5a1.asset
+  artifactKey: Guid(93f51a1675bea1447a669c21d1382e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_5a1.asset using Guid(93f51a1675bea1447a669c21d1382e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022ae7e6a95f1a21110a511fc677fb54') in 0.001084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.603744 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_5b1.asset
+  artifactKey: Guid(fa86a1c20bbedda478aa3df259fac923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_5b1.asset using Guid(fa86a1c20bbedda478aa3df259fac923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8e68af14b873ae69b87f45e3165a36') in 0.001172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.393860 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_4a.asset
+  artifactKey: Guid(e72be1efe827c8b41bd017b30ccff959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_4a.asset using Guid(e72be1efe827c8b41bd017b30ccff959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b35c6a7c23e655525e09c9d8938ccb') in 0.001295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.600406 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_5a1a.asset
+  artifactKey: Guid(31acc8a90c706c64a9c6e9bf93fcee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_5a1a.asset using Guid(31acc8a90c706c64a9c6e9bf93fcee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03c24eccc520b7c1f3eb889a53a7090') in 0.001125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.852467 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_5b1a.asset
+  artifactKey: Guid(7bd4a9ce682b02049ae513242dcd89c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_5b1a.asset using Guid(7bd4a9ce682b02049ae513242dcd89c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c886e8cdf34ba1c824ad7a0c8e6c5a') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 64.834996 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_6.asset
+  artifactKey: Guid(7d5057ffe741e5444bf1c493ea99598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_6.asset using Guid(7d5057ffe741e5444bf1c493ea99598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0237962a403a79c0db1fb9d8ff56719b') in 0.001243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 63.457799 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_6a.asset
+  artifactKey: Guid(c356a75dced7d03408a03bd802700887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_6a.asset using Guid(c356a75dced7d03408a03bd802700887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6906d4cb29e8d7b2fb623c0819e104') in 0.001061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.736056 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_6b.asset
+  artifactKey: Guid(d117f5af5756c0c4797a7e70c1b7ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_6b.asset using Guid(d117f5af5756c0c4797a7e70c1b7ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8279e031429b96834b3ad3777221ce') in 0.000977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.288647 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_6a1.asset
+  artifactKey: Guid(7cb68e26212d5ed47939c245abb44f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_6a1.asset using Guid(7cb68e26212d5ed47939c245abb44f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4678bf9106ce3b5b7f103173dcd78df8') in 0.001021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.559752 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_6b1.asset
+  artifactKey: Guid(6ab360c6cd41f1747863e440023afbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_6b1.asset using Guid(6ab360c6cd41f1747863e440023afbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bf7db5587068b59bf4737ece498c74') in 0.001233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.338430 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_7.asset
+  artifactKey: Guid(7c4ce81eba0747f43aaa78a2cfecaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_7.asset using Guid(7c4ce81eba0747f43aaa78a2cfecaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af54b6c0057367e00d76fde9f909fa60') in 0.001273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.622229 seconds.
+  path: Assets/Assets/OptionsObject/New Option Object.asset
+  artifactKey: Guid(4e5981167a60d5243a976ee01909357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/New Option Object.asset using Guid(4e5981167a60d5243a976ee01909357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2baf6782fbf6289cd040cc36701bd7') in 0.001631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.338283 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_7a.asset
+  artifactKey: Guid(4e5981167a60d5243a976ee01909357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_7a.asset using Guid(4e5981167a60d5243a976ee01909357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d45f43e24462eef13d08d8b7d27c5') in 0.001181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 107.418093 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/New Dialogue Object.asset
+  artifactKey: Guid(8873919643d48ce4bb87d319150e2572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/New Dialogue Object.asset using Guid(8873919643d48ce4bb87d319150e2572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c820c83e42e9fd4dbab11bcfa60123b9') in 0.001197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.041782 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_7a1.asset
+  artifactKey: Guid(8873919643d48ce4bb87d319150e2572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_7a1.asset using Guid(8873919643d48ce4bb87d319150e2572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5e4e68c3c3f80e9fb2969f7cb9fcfa') in 0.001194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.222908 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_7a1a.asset
+  artifactKey: Guid(1bc666c530c83d7429a1e6a3a0e1f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_7a1a.asset using Guid(1bc666c530c83d7429a1e6a3a0e1f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85bd83e797626ecb2ef8dc2a728abff') in 0.001891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.759329 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_7a1b.asset
+  artifactKey: Guid(193974d2887091144b5bfaf19d5c7c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_7a1b.asset using Guid(193974d2887091144b5bfaf19d5c7c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1b3a996ebd35e9a4af93f527b0e615') in 0.001062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.098869 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_7a1a1.asset
+  artifactKey: Guid(baece0f3d2ed64a4fa0841f101a24512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_7a1a1.asset using Guid(baece0f3d2ed64a4fa0841f101a24512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46f24fad4dd3fcc389e362cbc9b79ee') in 0.001064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 54.726798 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_7a1a1a.asset
+  artifactKey: Guid(0aff480bde5897846bce354af359f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_7a1a1a.asset using Guid(0aff480bde5897846bce354af359f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a93caa622ddec38fdbe201203818ae9') in 0.000987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.589454 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_7a1a1.asset
+  artifactKey: Guid(baece0f3d2ed64a4fa0841f101a24512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_7a1a1.asset using Guid(baece0f3d2ed64a4fa0841f101a24512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfad8ad03ab9d8e4ec8402e674fc1d4e') in 0.001402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 62.131568 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_8.asset
+  artifactKey: Guid(d4d2125c081744940bddc7c67626e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_8.asset using Guid(d4d2125c081744940bddc7c67626e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fef62c2a628427b2248a3963aae384') in 0.001378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.060788 seconds.
+  path: Assets/Assets/OptionsObject/New Option Object.asset
+  artifactKey: Guid(49930234291b61f4e89b64d5c0349cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/New Option Object.asset using Guid(49930234291b61f4e89b64d5c0349cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e1ca3547e89dd010dd59223a38de6d') in 0.001843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.885901 seconds.
+  path: Assets/Assets/OptionsObject/Husdon_8a.asset
+  artifactKey: Guid(49930234291b61f4e89b64d5c0349cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Husdon_8a.asset using Guid(49930234291b61f4e89b64d5c0349cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff2eed02ce73e91db4cadc49b4201ae') in 0.003096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.589319 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_8b.asset
+  artifactKey: Guid(35a713f98e8d3f9458048c448fb34e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_8b.asset using Guid(35a713f98e8d3f9458048c448fb34e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9a2370d2eb68cf5d7d361592d185e3') in 0.001450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.993680 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_8a1.asset
+  artifactKey: Guid(6411711f5a421694993ee6453120205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_8a1.asset using Guid(6411711f5a421694993ee6453120205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb3cd0f7462aefb98cfda7ba0f206d1') in 0.001044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.801526 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_8a1.asset
+  artifactKey: Guid(6411711f5a421694993ee6453120205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_8a1.asset using Guid(6411711f5a421694993ee6453120205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd047c1e9e989640fe4ab45e59f21fc99') in 0.001261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.962485 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_8a1a.asset
+  artifactKey: Guid(82e93fefc94c4844b8af332d3fc741c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_8a1a.asset using Guid(82e93fefc94c4844b8af332d3fc741c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1a1ac9fe768f599f6324ba19b9603b') in 0.001033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.401161 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_8a1a1a.asset
+  artifactKey: Guid(3b1713c86b4781049a3cd18fed7f756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_8a1a1a.asset using Guid(3b1713c86b4781049a3cd18fed7f756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5157dfdf6352a60de941faa16fb95d1a') in 0.001061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.034373 seconds.
+  path: Assets/Assets/DialogueObjects/Hudson/Hudson_8a1a1.asset
+  artifactKey: Guid(294251c83d3b23b4ab335a0f0dfde2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DialogueObjects/Hudson/Hudson_8a1a1.asset using Guid(294251c83d3b23b4ab335a0f0dfde2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3228b0da1d9f371fd6da0301edd9d213') in 0.001440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 329.262788 seconds.
+  path: Assets/Assets/OptionsObject/Hudson_1a.asset
+  artifactKey: Guid(b91ecd9c0dc170442a2e4994463f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/OptionsObject/Hudson_1a.asset using Guid(b91ecd9c0dc170442a2e4994463f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d59a82e1e7156a687a69a1dbd3f083b') in 0.001847 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002419 seconds.
-  path: Assets/Assets/OptionsObject/Boris_3b.asset
-  artifactKey: Guid(840f4cfec615074498cf0e27d1d99655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_3b.asset using Guid(840f4cfec615074498cf0e27d1d99655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9e969c40e052ad72e10add0ed68c3e') in 0.001972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/OptionsObject/Boris_6a.asset
-  artifactKey: Guid(a6c940aae97a54645a8b2aabe47362ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_6a.asset using Guid(a6c940aae97a54645a8b2aabe47362ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00905ee13683c566f445ea93138e7799') in 0.002816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.005168 seconds.
-  path: Assets/Assets/OptionsObject/Boris_4a1b.asset
-  artifactKey: Guid(df81733a93eafcb40a018f827839a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_4a1b.asset using Guid(df81733a93eafcb40a018f827839a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc39249b6ef1b49ead406f6bb3f2eb5f') in 0.002146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/Assets/OptionsObject/Boris_4a1a.asset
-  artifactKey: Guid(19ec9d22fd59c6b4a8599006dd92e0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/OptionsObject/Boris_4a1a.asset using Guid(19ec9d22fd59c6b4a8599006dd92e0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252f1dbd5fa1fa935f0474798462adfd') in 0.002288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.076575 seconds.
-  path: Assets/Assets/Pastries/Pastry3.png
-  artifactKey: Guid(360289fc8997a2244b2a0accac9fbf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pastries/Pastry3.png using Guid(360289fc8997a2244b2a0accac9fbf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a2ffc05bdd97a613ba4643fc534cd6') in 0.112128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Pastries/Pastry6.png
-  artifactKey: Guid(dc9af1648653142429e984cff6f415eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pastries/Pastry6.png using Guid(dc9af1648653142429e984cff6f415eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9f07366d49158035198478422212b5') in 0.047960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
