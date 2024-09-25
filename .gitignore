@@ -70,3 +70,18 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+*.csproj
+Library/ArtifactDB
+*.traceevents
+Library/Bee/fullprofile.json
+*.digestcache
+Library/Bee/tundra.log.json
+*.state
+*.map
+Library/ilpp.pid
+Library/SceneVisibilityState.asset
+Library/Search/transactions.db
+Library/SourceAssetDB
+Logs/AssetImportWorker0-prev.log
+*.log
+UserSettings/Layouts/default-2022.dwlt
