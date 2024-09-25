@@ -5,7 +5,7 @@ using UnityEngine;
 public class NPCData : MonoBehaviour
 {
     
-    public string name;
+    public new string name;
     public int timesTalkedTo;
     public DialogueObject[] YapperList;
 

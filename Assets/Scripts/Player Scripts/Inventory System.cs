@@ -14,7 +14,6 @@ public class InventorySystem : MonoBehaviour
     [SerializeField] private TMP_Text stressCountTxt;
     public double monee = 0;
     public double moneeIncrement = 1;
-    public int stress = 0;
     public bool newDay = true;
     
 
@@ -22,32 +21,12 @@ public class InventorySystem : MonoBehaviour
     {
         fishCount++;
         pastryCountTxt.text = "Pastries: " + fishCount;
-        if (stress < 100)
-        {
-            stress += 5;
-            stressCountTxt.text = "Stress: " + stress;
-            gameObject.GetComponent<PlayerMovement>().moveSpeed = 5;
-        }
-        else if (stress >= 100)
-        {
-            gameObject.GetComponent<PlayerMovement>().moveSpeed = 2;
-        }
     }
 
     public void chill()
     {
         if (newDay != false)
         {
-            if (stress > 75)
-            {
-                stress -= 75;
-                stressCountTxt.text = "Stress: " + stress;
-            }
-            else
-            {
-                stress = 0;
-                stressCountTxt.text = "Stress: " + stress;
-            }
             newDay = false;
         }
         
@@ -80,8 +59,6 @@ public class InventorySystem : MonoBehaviour
         fishCollection.Clear();
         pastryCountTxt.text = "Pastries: " + fishCount;
         moneeCountTxt.text = "Monee: " + monee;
-        stress = 0;
-        stressCountTxt.text = "Stress: " + stress;
         newDay = true;
         gameObject.GetComponent<PlayerMovement>().moveSpeed = 5;
     }
