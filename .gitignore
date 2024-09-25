@@ -86,3 +86,11 @@ Logs/AssetImportWorker0-prev.log
 *.log
 UserSettings/Layouts/default-2022.dwlt
 /Library
+Library/ArtifactDB
+Library/Bee/backend1.traceevents
+Library/Bee/fullprofile.json
+Library/Bee/tundra.digestcache
+Library/ilpp.pid
+Library/Search/transactions.db
+Library/SourceAssetDB
+UserSettings/Layouts/default-2022.dwlt
