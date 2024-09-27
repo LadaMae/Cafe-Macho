@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\Upgrade Manager.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\NPCData.cs" />
+    <Compile Include="Assets\TargetZoneData.cs" />
     <Compile Include="Assets\Scripts\DialogueHandler.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FishingManager.cs" />

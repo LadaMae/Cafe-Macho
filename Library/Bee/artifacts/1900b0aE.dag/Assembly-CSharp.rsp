@@ -384,6 +384,7 @@
 "Assets/Scripts/Player Scripts/PlayerMovement.cs"
 "Assets/Scripts/Player Scripts/Service Manager.cs"
 "Assets/Scripts/Player Scripts/Upgrade Manager.cs"
+"Assets/TargetZoneData.cs"
 -langversion:9.0
 /deterministic
 /optimize+

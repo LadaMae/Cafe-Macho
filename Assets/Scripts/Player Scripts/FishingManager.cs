@@ -20,17 +20,16 @@ public class FishingManager : MonoBehaviour
 
     //Fishing Minigame
     public Image indicator; 
-    public GameObject targetZonePrefab;
+    public List<GameObject> targetZonePrefabs;
     public int numberOfTargetZones = 3;
     public float minAngle = 0f; //Change to private later, keeping public for testing purposes.
     public float maxAngle = 360f;
     public float rotationSpeed = 200f;
     private bool isFishing = true;
     private float rotationAngle = 0f;
-    private List<Image> targetZones = new List<Image>(); 
+    private List<TargetZone> targetZones = new List<TargetZone>(); 
     void Start()
     {
-        
 
         foreach (Sprite fsh in allFish)
         {
@@ -75,7 +74,8 @@ public class FishingManager : MonoBehaviour
         for (int i = 0; i < numberOfTargetZones; i++)
         {
             float randomAngle = GenerateAngleWithoutOverlap(usedAngles);
-            CreateTargetZone(randomAngle);
+            GameObject targetZonePrefab = targetZonePrefabs[UnityEngine.Random.Range(0, targetZonePrefabs.Count)];
+            CreateTargetZone(randomAngle, targetZonePrefab);
             usedAngles.Add(randomAngle);
         }
 
@@ -119,11 +119,19 @@ public class FishingManager : MonoBehaviour
         return randomAngle;
     }
 
-     void CreateTargetZone(float angle)
+     void CreateTargetZone(float angle, GameObject targetZonePrefab)
     {
         //Instantiate new zone
         GameObject newTargetZone = Instantiate(targetZonePrefab, indicator.transform.parent);
-        Image targetZoneImage = newTargetZone.GetComponent<Image>();
+        TargetZone targetZoneScript = newTargetZone.GetComponent<TargetZone>();
+
+        if (targetZoneScript == null)
+        {
+            Debug.LogError("TargetZone script is missing on prefab: " + targetZonePrefab.name);
+            return;
+        }
+
+        RectTransform targetZoneRect = newTargetZone.GetComponent<RectTransform>();
 
         //I hate math.
         float radians = angle * Mathf.Deg2Rad;
@@ -132,15 +140,17 @@ public class FishingManager : MonoBehaviour
         float xPos = Mathf.Cos(radians) * radius;
         float yPos = Mathf.Sin(radians) * radius;
         
-        targetZoneImage.rectTransform.anchoredPosition = new Vector2(xPos,yPos);
+        targetZoneRect.anchoredPosition = new Vector2(xPos,yPos);
 
         //Correct angle and place it in perimiter of indicator object.
-        targetZoneImage.rectTransform.localRotation = Quaternion.Euler(0,0, angle);
-        targetZones.Add(targetZoneImage);
+        targetZoneRect.localRotation = Quaternion.Euler(0,0, angle);
+        targetZones.Add(targetZoneScript);
     }
 
     public void generateFish()
     {
+        GenerateTargetZones();
+        
         gachaFish();
         fishUI.SetActive(true);
         inventorySystem.addFishCount();
@@ -199,14 +209,25 @@ public class FishingManager : MonoBehaviour
 
         foreach (var targetZone in targetZones)
         {
+            RectTransform targetZoneRect = targetZone.GetComponent<RectTransform>();
+
             //30f is arbitrary to set the size of the target zone.
-            float targetStart = targetZone.rectTransform.eulerAngles.z - 30f;
-            float targetEnd = targetZone.rectTransform.eulerAngles.z + 30f;
+            float targetStart = targetZoneRect.eulerAngles.z - 20f;
+            float targetEnd = targetZoneRect.eulerAngles.z + 20f;
 
             if(angle >= targetStart && angle <= targetEnd)
             {
-                Debug.Log("Successful Catch!");
-                targetZone.color = Color.green; //For feedback
+                if(targetZone.points > 0)
+                {
+                    Debug.Log("Successful Catch!" + targetZone.points);
+                    targetZone.zoneSprite.color = Color.green; //For feedback
+                }
+                else
+                {
+                    Debug.Log("Bad Zone!  " + targetZone.points);
+                    targetZone.zoneSprite.color = Color.red; //For feedback
+                }
+                
                 return;
             }
         }
