@@ -128,4 +128,36 @@ MonoBehaviour:
   - speakerName: Lyle
     speakerSprite: {fileID: 0}
     dialogueText: "You\u2019ll get your phone after your shift is done today."
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: What? That isn't for another four hours!
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: Lyle!
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: No, it's in-
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "You look at the time. It\u2019s 12:46!"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "You look at the time. It\u2019s 12:46!"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "\u201414 minutes. We\u2019re closing early today. I\u2019m going
+      to tell Boris now."
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Wait, so suddenly? Why\u2014"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "There\u2019s a open market by the river downtown. We\u2019re going."
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Oh\u2026 Well. Alright then."
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "Hudson must\u2019ve realized why you decided to close early today.
+      He looks to be in a better mood as he gives you an appreciative look.\r\n"
   optionObjects: []

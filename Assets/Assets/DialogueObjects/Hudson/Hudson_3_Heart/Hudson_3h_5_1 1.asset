@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Hudson_3h_5_1 1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: Haha, you're blushing.
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "I... I have to go back to work now. I... uh... I... I can\u2019t
+      have you dock my pay!"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: Hudson rushes off, almost running straight into Boris.
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: You look down at the fish bracelet that Hudson bought you.
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "We went to the open market to help you get over your breakup\u2026
+      so how did you end up getting a gift for me?"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "You decide to treasure this little gift from Hudson.\r"
+  optionObjects: []

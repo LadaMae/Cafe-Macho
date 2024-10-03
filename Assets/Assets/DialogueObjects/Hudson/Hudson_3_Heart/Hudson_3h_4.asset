@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Hudson_3h_4
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "You take the gift and open it. In the small box lays a small silver
+      fish attached to a chain. It\u2019s a bracelet.\r\n"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "I saw it during the open market you took me to and I\u2026\r\n"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "I thought it would suit you. Plus, it\u2019s a fish so that kinda
+      goes in hand with what you do.\r\n"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "You\u2019ve never seen Hudson this nervous before. The tips of
+      his ears are flushed red."
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'This man has definitely never given his friends any sort of gifts
+      up until now!
+
+'
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "It\u2019s nice.\r\n"
+  optionObjects:
+  - {fileID: 11400000, guid: 762869a66dc58604e9c79f09df62a671, type: 2}
+  - {fileID: 11400000, guid: 30c2ca1d2c260a1448d8dddaedaf44d5, type: 2}
