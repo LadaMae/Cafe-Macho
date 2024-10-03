@@ -9,6 +9,8 @@ public class TargetZone : MonoBehaviour
     public int points;
     public UnityEngine.UI.Image zoneSprite;
 
+    public bool isTriggered = false;
+
     void Start()
     {
         if(zoneSprite == null)

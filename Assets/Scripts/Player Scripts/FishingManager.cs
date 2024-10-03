@@ -14,6 +14,9 @@ public class FishingManager : MonoBehaviour
     [SerializeField] private GameObject allFishView;
     [SerializeField] private Image fishImagePrefab;
 
+    [SerializeField] private GameObject IndicatorUI;
+    [SerializeField] private GameObject ProgressBarUI;
+
     public List<Sprite> allFish = new List<Sprite>();
     private Dictionary<Sprite, bool> gottenFish = new Dictionary<Sprite, bool>();
     public Dictionary<Sprite, GameObject> collectedFishImages = new Dictionary<Sprite, GameObject>();
@@ -22,12 +25,19 @@ public class FishingManager : MonoBehaviour
     public Image indicator; 
     public List<GameObject> targetZonePrefabs;
     public int numberOfTargetZones = 3;
-    public float minAngle = 0f; //Change to private later, keeping public for testing purposes.
-    public float maxAngle = 360f;
+    private float minAngle = 0f; 
+    private float maxAngle = 360f;
     public float rotationSpeed = 200f;
-    private bool isFishing = true;
+    private bool isFishing = false; //CHANGE TO FALSE WHEN DONE TESTING
     private float rotationAngle = 0f;
-    private List<TargetZone> targetZones = new List<TargetZone>(); 
+    private List<TargetZone> targetZones = new List<TargetZone>();
+
+    //Progression Bar
+    [SerializeField] private Slider progressBar;
+    [SerializeField] private int maxPoints = 100; //Win con to get a fsh.
+    public int currPoints = 0;
+
+
     void Start()
     {
 
@@ -60,7 +70,32 @@ public class FishingManager : MonoBehaviour
         }
     }
 
-    void GenerateTargetZones()
+    void showFishingUI()
+    {
+        IndicatorUI.SetActive(true);
+        ProgressBarUI.SetActive(true);
+    }
+
+    void hideFishingUI()
+    {
+        IndicatorUI.SetActive(false);
+        ProgressBarUI.SetActive(false);
+    }
+    public void PlayMinigame()
+    {
+        //Make sure PBar is reset.
+        progressBar.maxValue = maxPoints;
+        progressBar.value = 0;
+
+        isFishing = true;
+
+        showFishingUI();
+
+        GenerateTargetZones();
+    }
+
+    
+    void DestroyTargetZones()
     {
         //Ensure clear board.
         foreach(var zone in targetZones)
@@ -68,6 +103,12 @@ public class FishingManager : MonoBehaviour
             Destroy(zone.gameObject);
         }
         targetZones.Clear();
+    }
+    
+    void GenerateTargetZones()
+    {
+        
+        DestroyTargetZones();
 
         //Generate the new zones
         List<float> usedAngles = new List<float>();
@@ -206,35 +247,88 @@ public class FishingManager : MonoBehaviour
     void CheckIfSucessful()
     {
         float angle = indicator.rectTransform.eulerAngles.z; //If Img type rectTransform is missing in between the .
+        bool allGoodZoneTriggered = true;
+        bool regenIsAGo = false;
 
-        foreach (var targetZone in targetZones)
+        for (int i = 0; i < targetZones.Count; i++)
         {
+            var targetZone = targetZones[i];
             RectTransform targetZoneRect = targetZone.GetComponent<RectTransform>();
 
             //30f is arbitrary to set the size of the target zone.
             float targetStart = targetZoneRect.eulerAngles.z - 20f;
             float targetEnd = targetZoneRect.eulerAngles.z + 20f;
-
+            
             if(angle >= targetStart && angle <= targetEnd)
             {
-                if(targetZone.points > 0)
-                {
-                    Debug.Log("Successful Catch!" + targetZone.points);
-                    targetZone.zoneSprite.color = Color.green; //For feedback
-                }
-                else
-                {
-                    Debug.Log("Bad Zone!  " + targetZone.points);
-                    targetZone.zoneSprite.color = Color.red; //For feedback
-                }
                 
-                return;
+                if(!targetZone.isTriggered)
+                {
+                    AddPoints(targetZone.points);
+                    targetZone.isTriggered = true;
+                    
+                    if(targetZone.points > 0)
+                    {
+                        Debug.Log("Good Zone!" + targetZone.points);
+                        targetZone.zoneSprite.color = Color.green; //For feedback
+                    }
+                    else
+                    {
+                        Debug.Log("Bad Zone!  " + targetZone.points);
+                        targetZone.zoneSprite.color = Color.red; //For feedback
+                    }
+                }
+            }
+              //Check if we need to reset.
+            if(targetZone.points > 0 && !targetZone.isTriggered)
+            {
+                allGoodZoneTriggered = false;
             }
         }
 
+            if(allGoodZoneTriggered && progressBar.value < progressBar.maxValue && isFishing)
+            {
+                Debug.Log("All good zones triggered, we are switching!!!!");
+                regenIsAGo = true;
+            }
+
+            if(regenIsAGo)
+            {
+                // WHY ARE YOU WORKING AHHHHHHH
+                StartCoroutine(GenerateTargetZonesNextFrame());
+            }
+
         //We might want to repeat the rotation at nauseum until player gets the fish as to avoid stress?
         Debug.Log("Lost Fish");
-        //isFishing = false;
+    }
+
+    IEnumerator GenerateTargetZonesNextFrame()
+    {
+        yield return null;
+        GenerateTargetZones();
+    }
+
+    void AddPoints(int points)
+    {
+        currPoints += points;
+        progressBar.value = currPoints;
+
+        if(currPoints >= maxPoints)
+        {
+            hideFishingUI();
+            ResetProgress();
+            Debug.Log("Caught Fsh");
+            generateFish();
+            isFishing = false;
+            DestroyTargetZones();
+        }
+
+    }
+
+    void ResetProgress()
+    {
+        currPoints = 0;
+        progressBar.value = currPoints;
     }
 
 }

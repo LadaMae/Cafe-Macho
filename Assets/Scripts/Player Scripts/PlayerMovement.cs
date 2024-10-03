@@ -9,8 +9,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 movement; // Stores the player's movement direction
 
+    public bool canMove = true;
+
     void Update()
     {
+        if(!canMove) return;
+
         // Get input from the player
         movement.x = Input.GetAxisRaw("Horizontal"); // A/D or Left/Right
         movement.y = Input.GetAxisRaw("Vertical"); // W/S or Up/Down
@@ -20,6 +24,16 @@ public class PlayerMovement : MonoBehaviour
     {
         // Move the player
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public void LockPFreeroam()
+    {
+        canMove = false;
+    }
+
+    public void UnlockPFreeroam()
+    {
+        canMove = true;
     }
 }
 
