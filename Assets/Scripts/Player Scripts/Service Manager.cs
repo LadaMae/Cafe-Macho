@@ -12,18 +12,28 @@ public class ServiceManager : MonoBehaviour
     public DialogueHandler dialogueHandler;
     public NPCData chosenNPC;
     public NPCData[] talkableNPCS;
+    public bool inUse = false;
 
 
     public void showServiceUI()
     {
-        serviceUI.SetActive(true);
-        pastryCount.text = "Pastries: " + inventorySystem.fishCount;
+        if (inUse == true)
+        {
+            
+        }
+        else {
+            serviceUI.SetActive(true);
+            pastryCount.text = "Pastries: " + inventorySystem.fishCount;
+            inUse = true;
+        }
+        
         
     }
 
     public void sellFsh()
     {
         inventorySystem.sellFsh();
+        inUse = false;
     }
 
      public void onTalk()
@@ -63,6 +73,7 @@ public class ServiceManager : MonoBehaviour
     public void moveNPCDownCO()
     {
         StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+        inUse = false;
     }
 
     // Coroutine to move the NPC up

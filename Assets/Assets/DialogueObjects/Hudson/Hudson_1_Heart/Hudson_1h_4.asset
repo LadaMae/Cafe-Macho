@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Hudson_1h_4
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: Thanks...
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "So, the reason I\u2019m showing you all this is because I want
+      you to help me pick out my outfit for a date.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Why me? My main fashion style is a lab coat\u2026\r\n"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Well, I need an outside opinion! I look so good in everything
+      that I just can\u2019t choose\u2026"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "I would ask Boris, but I feel like he\u2019d want me to wear something
+      with a bowtie which is a little too tacky for me.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Well, I guess I can help\u2026"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "But if your date goes wrong because she hated your outfit then
+      that\u2019s not on me, you got that?\r\n"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Yes, yes, now which one do I look the hottest in?
+
+'
+  optionObjects:
+  - {fileID: 11400000, guid: d53640e578316fa46ad6d4e99dce71aa, type: 2}
+  - {fileID: 11400000, guid: 7e2060131ed31d445998ca9b5c9718bd, type: 2}

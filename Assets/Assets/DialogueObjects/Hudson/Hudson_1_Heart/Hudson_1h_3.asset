@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Hudson_1h_3
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Well\u2026 You see\u2026 I have a date with a girl this Saturday\u2026
+      heh\u2014\r\n"
+  optionObjects:
+  - {fileID: 11400000, guid: 8738a32c43c26e64ead52e0cfcce1f4b, type: 2}
+  - {fileID: 11400000, guid: 0ddedf9bd8721fe47a8e46c360dc3685, type: 2}

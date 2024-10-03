@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Hudson_1h_5_1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: The outfit with the beige sweater.
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Is that your favorite outfit out of all of these?\r"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I guess you could say that\u2026 \r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I guess you could say that\u2026 \r\n"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "Great, it\u2019s settled then!\r\n"
+  - speakerName: Hudson
+    speakerSprite: {fileID: 0}
+    dialogueText: "I\u2019ll update you with the good news, my lovely, amazing boss~"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: Hudson runs off with a cutesy wink and returns to work.
+  optionObjects: []
