@@ -3223,6 +3223,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 1107799587}
   canMove: 1
+  animator: {fileID: 0}
 --- !u!61 &1107799589
 BoxCollider2D:
   m_ObjectHideFlags: 0
