@@ -494,7 +494,6 @@ Transform:
   - {fileID: 1847775200}
   - {fileID: 1889297073}
   - {fileID: 1130891183}
-  - {fileID: 1098644352}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &140243487
@@ -1513,11 +1512,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fc45e1a628ffe4da67f594f4a2a7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  framesElapsed: 0
-  secondsElapsed: 0
-  minutesElapsed: 0
-  timeOfDay: 0
+  talkCounter: 0
   window: {fileID: 1889297072}
+  deskManager: {fileID: 1867388380}
 --- !u!4 &416641611
 Transform:
   m_ObjectHideFlags: 0
@@ -3408,12 +3405,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098644351}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 4.74, z: 0.068993874}
-  m_LocalScale: {x: 0.22560823, y: 0.22559275, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.29171526, y: -0.12004814, z: 0}
+  m_LocalScale: {x: 0.1880382, y: 0.11284152, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 137060194}
+  m_Father: {fileID: 1130891183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1098644353
 SpriteRenderer:
@@ -3455,7 +3452,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.5849056, g: 0.5133647, b: 0.041384827, a: 1}
   m_FlipX: 0
@@ -3716,6 +3713,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 253307843}
+  - {fileID: 1098644352}
   m_Father: {fileID: 137060194}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1130891184
@@ -3989,6 +3987,7 @@ MonoBehaviour:
   pastryCount: {fileID: 1362953772}
   inventorySystem: {fileID: 1107799590}
   deskManager: {fileID: 1867388380}
+  dayManager: {fileID: 416641610}
   dialogueHandler: {fileID: 1248658564}
   chosenNPC: {fileID: 0}
   talkableNPCS:
@@ -5291,7 +5290,7 @@ GameObject:
   - component: {fileID: 1707447097}
   - component: {fileID: 1707447098}
   m_Layer: 0
-  m_Name: Chill Desk
+  m_Name: Break Desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5872,9 +5871,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bca889aea1693409a9500e7b6916e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stressCount: {fileID: 0}
-  inventorySystem: {fileID: 1107799590}
+  dialogueHandler: {fileID: 1248658564}
+  dayManager: {fileID: 416641610}
   newDay: 0
+  chosenNPC: {fileID: 0}
+  talkableNPCS:
+  - {fileID: 17197403}
+  - {fileID: 1522075650}
+  talkedToday: 0
 --- !u!4 &1867388381
 Transform:
   m_ObjectHideFlags: 0
@@ -6509,7 +6513,7 @@ GameObject:
   - component: {fileID: 2138824045}
   - component: {fileID: 2138824046}
   m_Layer: 0
-  m_Name: Chill Interactable
+  m_Name: Break Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6549,7 +6553,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1867388380}
         m_TargetAssemblyTypeName: DeskManager, Assembly-CSharp
-        m_MethodName: drinkBitch
+        m_MethodName: onTalk
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

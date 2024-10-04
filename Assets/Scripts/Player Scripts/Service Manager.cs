@@ -9,6 +9,7 @@ public class ServiceManager : MonoBehaviour
     [SerializeField] private TMP_Text pastryCount;
     [SerializeField] private InventorySystem inventorySystem;
     [SerializeField] private DeskManager deskManager;
+    [SerializeField] private DayManager dayManager;
     public DialogueHandler dialogueHandler;
     public NPCData chosenNPC;
     public NPCData[] talkableNPCS;
@@ -17,16 +18,12 @@ public class ServiceManager : MonoBehaviour
 
     public void showServiceUI()
     {
-        if (inUse == true)
+        if (inUse != true)
         {
-            
-        }
-        else {
             serviceUI.SetActive(true);
             pastryCount.text = "Pastries: " + inventorySystem.fishCount;
             inUse = true;
         }
-        
         
     }
 
@@ -38,42 +35,52 @@ public class ServiceManager : MonoBehaviour
 
      public void onTalk()
     {
-        int randValue = Random.Range(0, talkableNPCS.Length); 
-        Debug.Log("Random Value: " + randValue);
+        if (dayManager.getTalkCounter() <= 3)
+        {
+            int randValue = Random.Range(0, talkableNPCS.Length);
+            Debug.Log("Random Value: " + randValue);
 
-        chosenNPC = talkableNPCS[randValue];
+            chosenNPC = talkableNPCS[randValue];
 
-        // Start the coroutine for moving the NPC up, triggering dialogue, and moving them back down
-        StartCoroutine(TalkSequence());
+            // Start the coroutine for moving the NPC up, triggering dialogue, and moving them back down
+            StartCoroutine(TalkSequence());
+        }
+        else
+        {
+            inUse = false;
+        }
     }
 
     // Coroutine to handle NPC moving up, triggering dialogue, and then moving down
     private IEnumerator TalkSequence()
     {
-        // Move NPC up
-        yield return StartCoroutine(MoveNPCUp(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
 
-        // Trigger dialogue
-        dialogueHandler.TriggerDialogue(chosenNPC.YapperList[chosenNPC.timesTalkedTo]);
+            // Move NPC up
+            yield return StartCoroutine(MoveNPCUp(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
 
-        // Wait for the dialogue to finish (I didnt wanna mess with dialogueHandler so i just made it a number)
-        yield return new WaitForSeconds(5f);
+            // Trigger dialogue
+            dialogueHandler.TriggerDialogue(chosenNPC.YapperList[chosenNPC.timesTalkedTo]);
 
-        // Increment timesTalkedTo if there are more dialogues
-        if (chosenNPC.timesTalkedTo < chosenNPC.YapperList.Length)
-        {
-            chosenNPC.timesTalkedTo++;
-        }
+            // Wait for the dialogue to finish (I didnt wanna mess with dialogueHandler so i just made it a number)
+            yield return new WaitForSeconds(5f);
 
-        // Move NPC down coroutine
-        //Commented in case we want to use it later
-        //yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+            // Increment timesTalkedTo if there are more dialogues
+            if (chosenNPC.timesTalkedTo < chosenNPC.YapperList.Length)
+            {
+                chosenNPC.timesTalkedTo++;
+            }
+
+            // Move NPC down coroutine
+            //Commented in case we want to use it later
+            //yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+
+        dayManager.incrementTalkCounter();
+        inUse = false;
     }
 
     public void moveNPCDownCO()
     {
         StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
-        inUse = false;
     }
 
     // Coroutine to move the NPC up

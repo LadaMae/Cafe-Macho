@@ -15,22 +15,12 @@ public class InventorySystem : MonoBehaviour
     public double monee = 0;
     public double moneeIncrement = 1;
     public bool newDay = true;
-    
+
 
     public void addFishCount()
     {
         fishCount++;
         pastryCountTxt.text = "Pastries: " + fishCount;
-    }
-
-    public void chill()
-    {
-        if (newDay != false)
-        {
-            newDay = false;
-        }
-        
-        
     }
 
     public void sellFsh()
