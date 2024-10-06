@@ -243,6 +243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Boris
   timesTalkedTo: 0
+  reputation: 0
+  hearts: 0
   YapperList:
   - {fileID: 11400000, guid: 4aeb60eb8e489b641b1b6ff5ae1ca39b, type: 2}
   - {fileID: 11400000, guid: ec0f16c1bd85c724da2a6a774d4bc4c7, type: 2}
@@ -250,6 +252,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b49b71d259504524dba61ba649561b10, type: 2}
   - {fileID: 11400000, guid: 9ea9cd940efec6c48b9abeabb198d6ca, type: 2}
   - {fileID: 11400000, guid: a584f24c679a2c14ca6ee0646119aa8a, type: 2}
+  OneHeart: {fileID: 11400000, guid: ea94c4bc02b899643ad8d95aa235f4af, type: 2}
+  TwoHeart: {fileID: 11400000, guid: e4582ee856e39164a812ddaed3ccdcaa, type: 2}
+  ThreeHeart: {fileID: 11400000, guid: 020c6c8018420534e868eb306d0d5261, type: 2}
+  conversationAvailable: 0
   moveDist: 2
   moveDuration: 1
 --- !u!212 &17197404
@@ -2947,7 +2953,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1315948523}
         m_TargetAssemblyTypeName: ServiceManager, Assembly-CSharp
-        m_MethodName: sellFsh
+        m_MethodName: setInUseOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4067,6 +4073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Hudson
   timesTalkedTo: 0
+  reputation: 0
+  hearts: 0
   YapperList:
   - {fileID: 11400000, guid: 7d95fe4545b5eb444bc5c5c01ef57667, type: 2}
   - {fileID: 11400000, guid: 0fdbf59bb8a0f274dafa8b2e171365b3, type: 2}
@@ -4076,6 +4084,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7d5057ffe741e5444bf1c493ea99598d, type: 2}
   - {fileID: 11400000, guid: 7c4ce81eba0747f43aaa78a2cfecaf84, type: 2}
   - {fileID: 11400000, guid: d4d2125c081744940bddc7c67626e6a0, type: 2}
+  OneHeart: {fileID: 11400000, guid: 1ac776ba8b803404486200caa91cedd6, type: 2}
+  TwoHeart: {fileID: 11400000, guid: a1ecce0d86c4123488fabc55201fc770, type: 2}
+  ThreeHeart: {fileID: 11400000, guid: 27d5ef898bf9f154ca5ad3574c47fe8f, type: 2}
+  conversationAvailable: 0
   moveDist: 2
   moveDuration: 1
 --- !u!212 &1522075651

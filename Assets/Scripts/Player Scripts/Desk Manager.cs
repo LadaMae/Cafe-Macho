@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DeskManager : MonoBehaviour
@@ -11,6 +13,7 @@ public class DeskManager : MonoBehaviour
     public NPCData chosenNPC;
     public NPCData[] talkableNPCS;
     public bool talkedToday = false;
+
 
     void Start()
     {
@@ -35,8 +38,7 @@ public class DeskManager : MonoBehaviour
         // Move NPC up
         yield return StartCoroutine(MoveNPCUp(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
 
-        // Trigger dialogue
-        dialogueHandler.TriggerDialogue(chosenNPC.YapperList[chosenNPC.timesTalkedTo]);
+        selectDialogue();
 
         // Wait for the dialogue to finish (I didnt wanna mess with dialogueHandler so i just made it a number)
         yield return new WaitForSeconds(5f);
@@ -49,7 +51,7 @@ public class DeskManager : MonoBehaviour
 
         // Move NPC down coroutine
         //Commented in case we want to use it later
-        //yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+        yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
 
         dayManager.incrementTalkCounter();
     }
@@ -97,10 +99,48 @@ public class DeskManager : MonoBehaviour
 
     public void setNewDay()
     {
+        
         int randValue = Random.Range(0, talkableNPCS.Length);
-            Debug.Log("Random Value: " + randValue);
+        Debug.Log("Random Value: " + randValue);
 
-            chosenNPC = talkableNPCS[randValue];
+        chosenNPC = talkableNPCS[randValue];
+
+        for (int i = 0; i < talkableNPCS.Length; i++)
+        {
+            if (talkableNPCS[i].conversationAvailable == true)
+            {
+                chosenNPC = talkableNPCS[i];
+            }
+        }
+
         talkedToday = false;
+
+    }
+
+    public void selectDialogue()
+    {
+        // Select reputation dialogue based on if the NPC is at the expected number of hearts and the conversation has not been done yet
+        if (chosenNPC.hearts == 1 && chosenNPC.conversationAvailable == true)
+        {
+            dialogueHandler.TriggerDialogue(chosenNPC.OneHeart);
+            chosenNPC.conversationAvailable = false;
+        }
+        else if (chosenNPC.hearts == 2 && chosenNPC.conversationAvailable == true)
+        {
+            dialogueHandler.TriggerDialogue(chosenNPC.TwoHeart);
+            chosenNPC.conversationAvailable = false;
+        }
+        else if (chosenNPC.hearts == 3 && chosenNPC.conversationAvailable == true)
+        {
+            dialogueHandler.TriggerDialogue(chosenNPC.ThreeHeart);
+            chosenNPC.conversationAvailable = false;
+        }
+        else // trigger standard dialogue
+        {
+            dialogueHandler.TriggerDialogue(chosenNPC.YapperList[chosenNPC.timesTalkedTo]);
+        }
+
+        chosenNPC.incrementReputation();
+        Debug.Log("NPC reputation at " + chosenNPC.reputation);
     }
 }

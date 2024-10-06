@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 public class ServiceManager : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class ServiceManager : MonoBehaviour
             inUse = true;
         }
         
+    }
+
+    public void setInUseOff()
+    {
+        inUse = false;
     }
 
      public void onTalk()
@@ -69,6 +75,8 @@ public class ServiceManager : MonoBehaviour
 
         dayManager.incrementTalkCounter();
         inUse = false;
+        chosenNPC.incrementReputation();
+        Debug.Log("NPC reputation at " + chosenNPC.reputation);
     }
 
     public void moveNPCDownCO()
