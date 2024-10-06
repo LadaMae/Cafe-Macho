@@ -21,16 +21,9 @@ public class ServiceManager : MonoBehaviour
         if (inUse != true)
         {
             serviceUI.SetActive(true);
-            pastryCount.text = "Pastries: " + inventorySystem.fishCount;
             inUse = true;
         }
         
-    }
-
-    public void sellFsh()
-    {
-        inventorySystem.sellFsh();
-        inUse = false;
     }
 
      public void onTalk()
