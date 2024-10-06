@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Boris_2h_3_2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: Frog cookie superiority!
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Pastries from the Sauna are good and all, but there\u2019s a different
+      sort of taste to home-baked goods.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'I think your friends would appreciate the effort you put in, especially
+      the birthday girl.
+
+'
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Imagine\u2014if you were the little girl and you saw cute little
+      frog cookies at your birthday party\u2014wouldn\u2019t you be delighted?"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Imagine\u2014if you were the little girl and you saw cute little
+      frog cookies at your birthday party\u2014wouldn\u2019t you be delighted?"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: Yes, I would! I would really, really love that.
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "And what\u2019s with all this, \u201Ccookies from the cafe nonsense?\"\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Don\u2019t they know I\u2019ll take it straight from your paycheck\u2026"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: Oh..!
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I\u2019m joking... probably."
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I\u2019m joking... probably."
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "Hesitation seeps into Boris\u2019 expression again.\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "What if my friends think I\u2019m lame when they find out I bake?"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Like, that\u2019s not really a manly thing to do, right?\r\n"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "You decide that if Boris\u2019 friends were really like this,
+      you\u2019d pull up and beat their ass on the spot."
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Do you enjoy baking, Boris?
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: Huh? Yeah, I do.
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: Then, why does it matter what other people think? What matters
+      is that you like it.
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "If you enjoy it, then it shouldn\u2019t matter what other people
+      think of it.\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I see. Okay. Yeah. Yeah! \r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I like baking, so I\u2019m gonna keep doing it! It doesn\u2019t
+      matter what other people think!\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I like baking, so I\u2019m gonna keep doing it! It doesn\u2019t
+      matter what other people think!\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: Thanks boss. Do you want to bake them with me?
+  optionObjects:
+  - {fileID: 11400000, guid: 5d7c9a14e574b79448b2c0875dbe8bf5, type: 2}
+  - {fileID: 11400000, guid: e70e404a41cd1c045a06cd125921dbe5, type: 2}

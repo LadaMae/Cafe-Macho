@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hudson_3h_4b
   m_EditorClassIdentifier: 
   option: "Haha, you\u2019re blushing."
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: 67b9c5809cb23ad42a76e3305a7ee824, type: 2}

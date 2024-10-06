@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Boris_2h_4_2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: I don't know how to bake pastries, only fish for them...
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Wouldn\u2019t it be fun? Plus, since you know all the science
+      behind pastry stuff, wouldn\u2019t that mean the cookies come out extra good?\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Alright, sure, we can use the ingredients we already have at the
+      cafe to make them.
+
+
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Haha, great! The party is on a Sunday, so is it okay if we come
+      into the cafe to make them even though we\u2019re normally closed?"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: Yea, that's no problem. Wait...
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Don\u2019t tell me your real motive was for me to provide you
+      with ingredients\u2026\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'What, no! I just wanted to hang out with you, I swear!
+
+'
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "It\u2019s okay, I exploit you, so it\u2019s only fair that you
+      exploit me\u2026\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "It\u2019s okay, I exploit you, so it\u2019s only fair that you
+      exploit me\u2026\r\n"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "Boris looks a little distraught and you can\u2019t help but laugh.
+      Boris has such cute reactions when you tease him that it almost feels like
+      bullying.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: Have you decided on the design for the cookie?
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Some of these designs are so cute that I can\u2019t decide. Wanna
+      look with me?"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Sure.
+
+'
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Boris pulls up his research material on his phone and shows you
+      the top picks.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Which one should we do?
+
+'
+  optionObjects:
+  - {fileID: 11400000, guid: 88f62a22f1a23644fab1d1914c4eb3fa, type: 2}
+  - {fileID: 11400000, guid: 5bc1cfa3d3086da478a42dd3cec7e214, type: 2}

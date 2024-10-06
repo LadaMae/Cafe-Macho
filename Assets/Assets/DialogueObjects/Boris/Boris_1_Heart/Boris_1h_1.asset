@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Boris_1h_1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'You sit down at the break desk, where Boris happens to be taking
+      his break. He looks deep in thought but perks up at your presence.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Hey Boss, what\u2019s your favorite pastry?\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I don\u2019t really have one. I just eat whatever is in front
+      of me.\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Oh\u2026 I see\u2026 Hmm.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Why did you ask? You look like you have something on your mind.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: I was wondering, there are so many pastries out there, and all
+      of them are so yummy.
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Most people have favorites because of one thing or another, so
+      I was just curious about what you would like the most.
+
+'
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I see. So you\u2019re kind of like a surveyor."
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I asked Hudson what his favorite pastry was and he said the wedding
+      cake\u2026\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Isn\u2019t that just because he wants to be married\u2026\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "That\u2019s what I thought too~ "
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'So I asked him what his second favorite was. He likes log cakes!
+
+'
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: "You nod. You do see Hudson eating log cakes pretty often whenever
+      he\u2019s on break.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'What about you? What do you like the most?
+
+'
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Boris puts a hand to his chin and starts thinking.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I think I\u2019m kind of like you, boss.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: Kind of like me?
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Yeah. I like all pastries!
+
+'
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Have you eaten our entire menu yet?
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Yes!
+
+'
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Well, feel free to help yourself to pastries when there\u2019s
+      extra.\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Now that you\u2019ve given me the pass, I really will. Don\u2019t
+      regret your words.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I\u2019ll just make you do overtime on feeding the well if you
+      eat everything\u2026\r\n"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Boris laughs, then lets out a little sigh.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: I wish the city folk understood how good pastries can be.
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'All those mass-produced pastries are terrible, and give a bad
+      image to true pastries!
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: Most people either settle for those mediocre treats or just avoid
+      them in general these days
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "Well, you\u2019ll just have to work extra hard to get our little
+      place recognized then.\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "You\u2019re right, I gotta work extra hard to spread the goodness
+      of pastries!\r\n"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Invigorated, Boris stands up and prepares to go back to work.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I\u2019m gonna aim for thirty brochures given out to customers
+      to take home by the end of the day.\r\n"
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: 'You watch Boris mutter to himself as he returns to the counter.
+
+'
+  optionObjects: []

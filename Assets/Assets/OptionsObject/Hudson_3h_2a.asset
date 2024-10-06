@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hudson_3h_2a
   m_EditorClassIdentifier: 
   option: "That\u2019s good."
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: f06a84ff30d38f34894280384910996f, type: 2}

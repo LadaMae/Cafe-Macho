@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hudson_3h_4a
   m_EditorClassIdentifier: 
   option: Thank you, Hudson.
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: 814bd7d4a4928f742bd98f8b5a5b9bae, type: 2}

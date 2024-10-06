@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hudson_3h_1a
   m_EditorClassIdentifier: 
   option: I'll think about it.
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: fa6f55036869d5f41843de9f2191b2cd, type: 2}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hudson_3h_2b
   m_EditorClassIdentifier: 
   option: Are you going to quit your job?
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: e0f683f13e4d96746b5bf1093d60c9f0, type: 2}

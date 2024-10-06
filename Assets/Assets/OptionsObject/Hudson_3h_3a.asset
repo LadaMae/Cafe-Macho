@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hudson_3h_3a
   m_EditorClassIdentifier: 
   option: Accept Hudson's gift.
-  dialogueObjects: {fileID: 0}
+  dialogueObjects: {fileID: 11400000, guid: ea962585628c68641a178180007c2eef, type: 2}

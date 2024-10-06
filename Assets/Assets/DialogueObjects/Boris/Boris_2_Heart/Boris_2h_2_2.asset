@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Boris_2h_2_2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: "I didn\u2019t know you were a baker. Is there a special occasion?\r\n"
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "I\u2019m helping throw a surprise birthday party for my friend\u2019s
+      little sister and she loves frogs.\r\n"
+  - speakerName: Lyle
+    speakerSprite: {fileID: 0}
+    dialogueText: 'Have you settled on a design? The ones with big, googly eyes are
+      the cutest in my opinion.
+
+'
+  - speakerName: 
+    speakerSprite: {fileID: 0}
+    dialogueText: Boris looks at you, a little wide-eyed, before a grin spreads across
+      his face.
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'I think so too! My friends asked me if I could bring sugar cookies
+      for the party and I was like, well yeah! Of course!
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: But...
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'I think they assumed that I was gonna bring cookies from the cafe,
+      since I work here and all.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: 'I think they assumed that I was gonna bring cookies from the cafe,
+      since I work here and all.
+
+'
+  - speakerName: Boris
+    speakerSprite: {fileID: 0}
+    dialogueText: "Do you think they\u2019ll be disappointed if I bring them my cookies?
+      Should I just get some from here after all?\r\n"
+  optionObjects:
+  - {fileID: 11400000, guid: 747d52112022fb44f9e3bab83e62cc4e, type: 2}
+  - {fileID: 11400000, guid: 059aec98713cc354b8791df3d55539a0, type: 2}
