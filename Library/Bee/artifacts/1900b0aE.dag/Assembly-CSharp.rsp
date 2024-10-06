@@ -382,13 +382,13 @@
 "Assets/Scripts/DialogueLine.cs"
 "Assets/Scripts/DialogueObject.cs"
 "Assets/Scripts/OptionObject.cs"
+"Assets/Scripts/Player Scripts/DayManager.cs"
 "Assets/Scripts/Player Scripts/Desk Manager.cs"
 "Assets/Scripts/Player Scripts/FishingManager.cs"
 "Assets/Scripts/Player Scripts/Interactable.cs"
 "Assets/Scripts/Player Scripts/Inventory System.cs"
 "Assets/Scripts/Player Scripts/PlayerMovement.cs"
 "Assets/Scripts/Player Scripts/Service Manager.cs"
-"Assets/Scripts/Player Scripts/Upgrade Manager.cs"
 "Assets/TargetZoneData.cs"
 -langversion:9.0
 /deterministic
