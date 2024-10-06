@@ -194,7 +194,7 @@ public class FishingManager : MonoBehaviour
         
         gachaFish();
         fishUI.SetActive(true);
-        inventorySystem.addFishCount();
+        inventorySystem.addTotalFishCount();
     }
 
     public void gachaFish()
@@ -228,12 +228,15 @@ public class FishingManager : MonoBehaviour
 
     public void checkFish(Sprite currentFish)
     {
+        //checks if current fish obtained before
         if(inventorySystem.fishCollection.ContainsKey(currentFish))
         {
-            inventorySystem.fishCollection[currentFish] ++;
+            //adds if current fish obtained
+            inventorySystem.addToIndFishCount(currentFish);
         }
         else
         {
+            //if not, adds fish to fishcollection
             inventorySystem.fishCollection.Add(currentFish, 1);
         }
         

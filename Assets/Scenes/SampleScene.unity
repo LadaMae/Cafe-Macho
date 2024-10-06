@@ -3460,13 +3460,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishCount: 0
+  journalEntries:
+  - thisFish: {fileID: 21300000, guid: da80a6ab8490e08478fb44a51143cf65, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: did it!
+  - thisFish: {fileID: 21300000, guid: e78b9b767b676914d8847b9354a0cef3, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: unlocked
+  - thisFish: {fileID: 21300000, guid: 360289fc8997a2244b2a0accac9fbf82, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: yay!
+  - thisFish: {fileID: 21300000, guid: 81f2a4606830e3a4f9ebbb1acce00aef, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: 4 unlcoked
+  - thisFish: {fileID: 21300000, guid: 9c59d432025b77349b556240c2efee67, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: 5 unlocked
+  - thisFish: {fileID: 21300000, guid: dc9af1648653142429e984cff6f415eb, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: Unlocked!
+  - thisFish: {fileID: 21300000, guid: 2bd8366f8c288a348a6d7a58ea75aef0, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: 7 unlocked
+  - thisFish: {fileID: 21300000, guid: 4a46d4b0233ec6740a8be1d92b5c78b5, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: 8 unlcoked
+  - thisFish: {fileID: 21300000, guid: ec3ca8367f4c2154e91ea4762ecccf42, type: 3}
+    numOfFish: 0
+    fishUnlockDialogues:
+    - unlockNum: 1
+      unlockedDialogue: 9  unlocked
   fishingManager: {fileID: 1021656292}
-  pastryCountTxt: {fileID: 0}
-  moneeCountTxt: {fileID: 0}
-  stressCountTxt: {fileID: 0}
-  monee: 0
-  moneeIncrement: 1
-  newDay: 0
+  newDay: 1
 --- !u!95 &1107799591
 Animator:
   serializedVersion: 5

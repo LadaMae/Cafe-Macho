@@ -8,17 +8,30 @@ public class InventorySystem : MonoBehaviour
     public int fishCount = 0;
     //number of each fish type
     public Dictionary<Sprite, int> fishCollection = new Dictionary<Sprite, int>();
+    public FishObject[] journalEntries;
+    public Dictionary<Sprite, FishObject> FishJournalEntries = new Dictionary<Sprite, FishObject>();
     [SerializeField] private FishingManager fishingManager;
     public bool newDay = true;
 
-    public struct FishObject
+    //Kermit the farm here
+    void Start()
     {
-        public int numOfFish {get; set;}
+        foreach (FishObject fish in journalEntries)
+        {
+            FishJournalEntries.Add(fish.thisFish, fish);
+        }
     }
 
-    public void addFishCount()
+    public void addTotalFishCount()
     {
         fishCount++;
+    }
+
+    public void addToIndFishCount(Sprite currentFish)
+    {
+        fishCollection[currentFish]++;
+        string entry = FishJournalEntries[currentFish].checkAllJournalEntries(fishCollection[currentFish]);
+        //check if journal entry unlocked here.
     }
 
 }
