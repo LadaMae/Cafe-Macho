@@ -11,6 +11,7 @@ public class InventorySystem : MonoBehaviour
     public FishObject[] journalEntries;
     public Dictionary<Sprite, FishObject> FishJournalEntries = new Dictionary<Sprite, FishObject>();
     [SerializeField] private FishingManager fishingManager;
+    [SerializeField] private UIHandler uiHandler;
     public bool newDay = true;
 
     //Kermit the farm here
@@ -30,8 +31,13 @@ public class InventorySystem : MonoBehaviour
     public void addToIndFishCount(Sprite currentFish)
     {
         fishCollection[currentFish]++;
-        string entry = FishJournalEntries[currentFish].checkAllJournalEntries(fishCollection[currentFish]);
-        //check if journal entry unlocked here.
+        uiHandler.updateJournal();
+    }
+
+    //gets the text of a given fish
+    public string getText(Sprite currentFish)
+    {
+        return FishJournalEntries[currentFish].checkAllJournalEntries(fishCollection[currentFish]);
     }
 
 }

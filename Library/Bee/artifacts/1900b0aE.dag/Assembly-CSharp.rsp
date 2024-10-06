@@ -378,6 +378,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/NPCData.cs"
+"Assets/Scripts/BookUIHandler.cs"
 "Assets/Scripts/DialogueHandler.cs"
 "Assets/Scripts/DialogueLine.cs"
 "Assets/Scripts/DialogueObject.cs"
@@ -388,7 +389,11 @@
 "Assets/Scripts/Player Scripts/Inventory System.cs"
 "Assets/Scripts/Player Scripts/PlayerMovement.cs"
 "Assets/Scripts/Player Scripts/Service Manager.cs"
+<<<<<<< Updated upstream
 "Assets/Scripts/Player Scripts/Upgrade Manager.cs"
+=======
+"Assets/Scripts/UIHandler.cs"
+>>>>>>> Stashed changes
 "Assets/TargetZoneData.cs"
 -langversion:9.0
 /deterministic
