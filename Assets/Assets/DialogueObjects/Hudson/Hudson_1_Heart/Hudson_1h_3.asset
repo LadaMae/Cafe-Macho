@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Well\u2026 You see\u2026 I have a date with a girl this Saturday\u2026
       heh\u2014\r\n"
   optionObjects:

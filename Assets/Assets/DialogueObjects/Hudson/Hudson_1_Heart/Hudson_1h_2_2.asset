@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Hudson_1h_2_2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: Eh... too basic. Six out of ten.
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "What!? You\u2019re such a hater, I literally look so hot?\r\n"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: Yeah, okay...
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Wait, there\u2019s more.\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: 'He scrolls through his images, showing off a few more outfits
       in various pieces and colors.

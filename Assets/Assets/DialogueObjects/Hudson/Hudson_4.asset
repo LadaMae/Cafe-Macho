@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Hudson
-    speakerSprite: {fileID: 21300000, guid: cddaf7159c570c849860c6cb2b6d6f73, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "You know, if scandals weren\u2019t real I would totally become
       a K-pop idol and find a girlfriend that way. But fans are crazy\u2026\r\n"
   optionObjects:

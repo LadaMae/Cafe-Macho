@@ -13,28 +13,28 @@ MonoBehaviour:
   m_Name: Hudson_3h_4
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "You take the gift and open it. In the small box lays a small silver
       fish attached to a chain. It\u2019s a bracelet.\r\n"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "I saw it during the open market you took me to and I\u2026\r\n"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "I thought it would suit you. Plus, it\u2019s a fish so that kinda
       goes in hand with what you do.\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "You\u2019ve never seen Hudson this nervous before. The tips of
       his ears are flushed red."
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: 'This man has definitely never given his friends any sort of gifts
       up until now!
 
 '
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "It\u2019s nice.\r\n"
   optionObjects:

@@ -16,6 +16,7 @@ public class FishingManager : MonoBehaviour
 
     [SerializeField] private GameObject IndicatorUI;
     [SerializeField] private GameObject ProgressBarUI;
+    [SerializeField] private GameObject fishingText;
 
     public List<Sprite> allFish = new List<Sprite>();
     private Dictionary<Sprite, bool> gottenFish = new Dictionary<Sprite, bool>();
@@ -74,12 +75,14 @@ public class FishingManager : MonoBehaviour
     {
         IndicatorUI.SetActive(true);
         ProgressBarUI.SetActive(true);
+        fishingText.SetActive(true);
     }
 
     void hideFishingUI()
     {
         IndicatorUI.SetActive(false);
         ProgressBarUI.SetActive(false);
+        fishingText.SetActive(false);
     }
     public void PlayMinigame()
     {

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Hudson
-    speakerSprite: {fileID: 21300000, guid: cddaf7159c570c849860c6cb2b6d6f73, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: Um. Is that legal?
   optionObjects:
   - {fileID: 11400000, guid: 3b1713c86b4781049a3cd18fed7f756c, type: 2}

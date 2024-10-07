@@ -13,51 +13,51 @@ MonoBehaviour:
   m_Name: Hudson_3h_3_2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: Are you going to quit your job?
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "No, I\u2019m not quitting! Why is that the first thing in your
       mind?\r\n"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "I\u2019ve been thinking long and hard about why she told me we
       weren\u2019t working out. I swore I did everything right but\u2026\r\n"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Maybe my actions weren\u2019t the problem..."
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "I remembered something that my ex\u2014 uh, ex-ex-girlfriend said
       to me when we broke up. She said that\u2026 her heart isn\u2019t in this relationship."
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "That sounds just like\u2026"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: Yeah. And later, she came out as a lesbian.
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "So\u2026 are you g\u2014"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: AHEM!
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: Anyway...
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: He reaches into his pocket and pulls out a little box.
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: 'Here. Uh, this is for you.
 
 '
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: As a thank you, for... that day...
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: 'Hudson is looking to the side and refusing to meet your eyes.
       He looks a little shy and embarrassed as he holds out his gift.

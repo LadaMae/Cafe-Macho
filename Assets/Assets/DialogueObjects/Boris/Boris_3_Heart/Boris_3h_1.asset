@@ -14,26 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: Boss!
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "Boris holds up his phone to you excitedly. It\u2019s a picture
       of him and his friends, posing with the birthday girl."
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: You spot the plate of frog cookies that you two baked together.
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Last night was a big success! They loved the cookies!
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Last night was a big success! They loved the cookies!
 
 '
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: 'His happiness is infectious. You can''t help but smile.
 

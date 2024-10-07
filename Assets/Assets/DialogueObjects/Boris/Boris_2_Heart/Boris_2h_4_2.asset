@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Boris_2h_4_2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: I don't know how to bake pastries, only fish for them...
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Wouldn\u2019t it be fun? Plus, since you know all the science
       behind pastry stuff, wouldn\u2019t that mean the cookies come out extra good?\r\n"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: 'Alright, sure, we can use the ingredients we already have at the
       cafe to make them.
@@ -29,42 +29,42 @@ MonoBehaviour:
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Haha, great! The party is on a Sunday, so is it okay if we come
       into the cafe to make them even though we\u2019re normally closed?"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: Yea, that's no problem. Wait...
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "Don\u2019t tell me your real motive was for me to provide you
       with ingredients\u2026\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'What, no! I just wanted to hang out with you, I swear!
 
 '
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "It\u2019s okay, I exploit you, so it\u2019s only fair that you
       exploit me\u2026\r\n"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "It\u2019s okay, I exploit you, so it\u2019s only fair that you
       exploit me\u2026\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "Boris looks a little distraught and you can\u2019t help but laugh.
       Boris has such cute reactions when you tease him that it almost feels like
       bullying.\r\n"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: Have you decided on the design for the cookie?
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Some of these designs are so cute that I can\u2019t decide. Wanna
       look with me?"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: 'Sure.
 
@@ -76,7 +76,7 @@ MonoBehaviour:
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Which one should we do?
 
 '

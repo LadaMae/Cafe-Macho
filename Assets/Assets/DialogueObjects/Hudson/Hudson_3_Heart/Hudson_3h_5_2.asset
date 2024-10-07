@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: Hudson_3h_5_2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: Haha, you're blushing.
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "I... I have to go back to work now. I... uh... I... I can\u2019t
       have you dock my pay!"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: Hudson rushes off, almost running straight into Boris.
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: You look down at the fish bracelet that Hudson bought you.
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "We went to the open market to help you get over your breakup\u2026
       so how did you end up getting a gift for me?"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "You decide to treasure this little gift from Hudson.\r"
   optionObjects: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: Boss, can I leave early today? I need to take my dog to the vet.
   optionObjects:
   - {fileID: 11400000, guid: a9c734f1fad235449a53333880bbe2c3, type: 2}

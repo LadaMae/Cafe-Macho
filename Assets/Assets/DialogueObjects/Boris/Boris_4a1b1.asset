@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Hehehe, give me one moment.
 
 '
   - speakerName: Narrator
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 0}
     dialogueText: Boris holds up his phone.
   - speakerName: Narrator
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 0}
     dialogueText: 'On his screen is a small, fluffy chihuahua with a red bowtie with
       polka dots on its head.
 

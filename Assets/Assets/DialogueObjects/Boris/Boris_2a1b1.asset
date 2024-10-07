@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: ...
   - speakerName: You
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 0}
     dialogueText: ...
   - speakerName: You
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 0}
     dialogueText: Ok, what size do you wear again?
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Size XXXXXXXXXXL, thanks for being so understanding boss!\r"
   - speakerName: You
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 0}
     dialogueText: "Of course! It\u2019s not your fault, your big buff man bod is
       hard to fit clothes for."
   optionObjects: []

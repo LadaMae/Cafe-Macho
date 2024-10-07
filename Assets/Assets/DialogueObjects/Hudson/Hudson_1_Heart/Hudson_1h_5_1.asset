@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: Hudson_1h_5_1
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: The outfit with the beige sweater.
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Is that your favorite outfit out of all of these?\r"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "I guess you could say that\u2026 \r\n"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "I guess you could say that\u2026 \r\n"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Great, it\u2019s settled then!\r\n"
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "I\u2019ll update you with the good news, my lovely, amazing boss~"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: Hudson runs off with a cutesy wink and returns to work.
   optionObjects: []

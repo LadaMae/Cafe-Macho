@@ -13,40 +13,40 @@ MonoBehaviour:
   m_Name: Boris_2h_1
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: 'As you approach the break desk, you pass by Boris, who looks contemplative. '
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "You don\u2019t mean to snoop, but you catch a glimpse of his phone
       screen that\u2026 is filled with a bunch of cartoon frogs."
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "What\u2019s up with the frogs, Boris?\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Oh\u2014\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: 'Boris tenses and shuts his phone almost immediately. He looks
       up at you, a smile plastered on his face.
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'I was just curious about what they looked like!
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'I was just curious about what they looked like!
 
 '
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "You\u2019ve never seen frogs before? And also you were looking
       at cartoon frogs, not real frogs.\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "There\u2019s a moment of silence as you stare at each other. Boris
       deflates for a split second, smile slipping, but he bounces right back and
@@ -54,24 +54,24 @@ MonoBehaviour:
       each other. Boris deflates for a split second, smile slipping, but he bounces
       right back and looks at you brightly.\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Well, okay, you caught me there, Boss! I was looking at cartoon
       frogs for inspiration.
 
 '
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: 'Inspiration? For what?
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "\u2026I want to bake cookies and decorate them like frogs.\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: You notice that there was a slight hesitation in his voice when
       he mentioned baking.
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: You notice that there was a slight hesitation in his voice when
       he mentioned baking.

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "I would never, boss! I\u2019ve been juggling since I was five!"
   optionObjects: []

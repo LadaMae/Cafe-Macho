@@ -13,103 +13,103 @@ MonoBehaviour:
   m_Name: Boris_3h_2_1
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "I\u2019m glad it turned out well!"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "My friends said I\u2019m an awesome baker!"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "They asked me why I never told them I baked, so I decided to confess
       and they called me an idiot for thinking they were that shallow\u2026\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Hahaha. I\u2019m so glad. I think I can die happy."
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "Don\u2019t die, I still need you to work here."
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Of course not, boss. I won\u2019t die so long as I\u2019m an employee
       here! Also...\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "Boris takes out a bowtie from his pocket. It looks familiar, and
       you realize that its design matches the one Boris wears. \r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "It\u2019s my ultimate sign of friendship. We can match at work
       now!\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Thank you for encouraging me to bake those frog cookies. Who knew
       how life-changing that would be?
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Thank you for encouraging me to bake those frog cookies. Who knew
       how life-changing that would be!
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "I was always terrified that my friends would find out I like baking
       and cute things, and would think that I\u2019m weird or something.\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'But now, I know I was just being overly anxious!
 
 '
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: You have good friends.
   - speakerName: 
     speakerSprite: {fileID: 0}
     dialogueText: Boris shuffles a little before a resolute look settles on his face.
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: Boss... can I hug you?
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "...I\u2019m gonna hug you.\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'Boris pulls you into a tight bear hug.
 
 '
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "Oh, okay\u2014"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: He is very comfortable, you realize. Despite being all muscle,
       you felt like you were hugging a big teddy bear.
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: "In the midst of equating Boris\u2019 face to a Care Bear, you
       feel your feet leave the ground\u2014\r\n"
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: Boris is spinning you around in the air with glee. You feel like
       a ragdoll in the face of his muscles-
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: He sets you down after a few more spins.
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "I\u2019ve decided!"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: I like you a lot, boss!
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: After that declaration, Boris casually returns to work.
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: You stand in stunned silence.
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: What did he mean by that?!
   optionObjects: []

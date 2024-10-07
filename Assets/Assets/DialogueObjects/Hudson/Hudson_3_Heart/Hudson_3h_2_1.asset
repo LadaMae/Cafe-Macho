@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Hudson_3h_2_1
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: 'You '
     speakerSprite: {fileID: 0}
     dialogueText: I'll think about it.
   - speakerName: Hudson
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Anyway, I think I\u2019m going to take a break from looking for
       girls."
   optionObjects:

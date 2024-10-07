@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "A little bit, but it isn\u2019t an issue!"
   - speakerName: Boris
-    speakerSprite: {fileID: 21300000, guid: 94f1819f01b3cbf49b071faf3ddccfec, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "I just recently spent a lot on stuff for Bucky. Like fun little
       clothes, bowties, some dog care products\u2026"
   optionObjects:

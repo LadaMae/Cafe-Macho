@@ -13,46 +13,46 @@ MonoBehaviour:
   m_Name: Boris_2h_2_2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: "I didn\u2019t know you were a baker. Is there a special occasion?\r\n"
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "I\u2019m helping throw a surprise birthday party for my friend\u2019s
       little sister and she loves frogs.\r\n"
-  - speakerName: Lyle
+  - speakerName: You
     speakerSprite: {fileID: 0}
     dialogueText: 'Have you settled on a design? The ones with big, googly eyes are
       the cutest in my opinion.
 
 '
-  - speakerName: 
+  - speakerName: Narrator
     speakerSprite: {fileID: 0}
     dialogueText: Boris looks at you, a little wide-eyed, before a grin spreads across
       his face.
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'I think so too! My friends asked me if I could bring sugar cookies
       for the party and I was like, well yeah! Of course!
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: But...
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'I think they assumed that I was gonna bring cookies from the cafe,
       since I work here and all.
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: 'I think they assumed that I was gonna bring cookies from the cafe,
       since I work here and all.
 
 '
   - speakerName: Boris
-    speakerSprite: {fileID: 0}
+    speakerSprite: {fileID: 21300000, guid: 4c52e621896c2714794d87ddb8f51a5e, type: 3}
     dialogueText: "Do you think they\u2019ll be disappointed if I bring them my cookies?
       Should I just get some from here after all?\r\n"
   optionObjects:

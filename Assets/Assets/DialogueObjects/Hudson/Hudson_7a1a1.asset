@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - speakerName: Hudson
-    speakerSprite: {fileID: 21300000, guid: cddaf7159c570c849860c6cb2b6d6f73, type: 3}
+    speakerSprite: {fileID: 21300000, guid: 4d8ffdd3450e34841ae43e05baf1363a, type: 3}
     dialogueText: "Boss?!??! Aren\u2019t you supposed to be happy for me!?"
   optionObjects:
   - {fileID: 11400000, guid: 0aff480bde5897846bce354af359f753, type: 2}
