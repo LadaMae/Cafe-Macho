@@ -10,4 +10,14 @@ public class BookUIHandler : MonoBehaviour
     {
         uIHandler.HideJournalUI();
     }
+
+    public void TurnUIPageRight()
+    {
+        uIHandler.turnPageRight();
+    }
+
+    public void TurnUIPageLeft()
+    {
+        uIHandler.turnPageLeft();
+    }
 }
