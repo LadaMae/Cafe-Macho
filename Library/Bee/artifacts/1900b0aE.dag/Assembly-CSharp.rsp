@@ -383,6 +383,7 @@
 "Assets/Scripts/DialogueLine.cs"
 "Assets/Scripts/DialogueObject.cs"
 "Assets/Scripts/FishObject.cs"
+"Assets/Scripts/GameStartManager.cs"
 "Assets/Scripts/OptionObject.cs"
 "Assets/Scripts/PastryUIHandler.cs"
 "Assets/Scripts/Player Scripts/DayManager.cs"

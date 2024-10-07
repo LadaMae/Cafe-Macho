@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d0ac7923f7bf64e9436a92d21050e5, type: 3}
+  m_Name: Dimitry_IntroDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: "The door to the lab opens, and a man wearing a Hawaiian shirt
+      and beige palm tree shorts walks in. Despite the sunglasses on his face, you
+      recognize him.\r\nIt\u2019s the mafia boss, Dimitry, your wallet bank big money
+      man benefactor, and the person who has been funding your research and cafe."
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Yo Pastry Kid.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Got any goods for me?
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Hi\u2014 uh, goods?"
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: He squints at you through his sunglasses.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: The goods, boy.
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Like dru\u2014"
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: NO!
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Pastries. My sweetie yummy little treats.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Who the hell even does drugs anymore?
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: Oh. Ohhh. Yes, pastries.
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: We have a bunch of different pastries, what kind would you want?
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Hm.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Hmmmmmm.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: All of them.
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "\u2026All of them?"
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Yes.
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Ah\u2026 uh. Okay then\u2026"
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: "You can\u2019t deny the mafia boss, so you hurry to pack all of
+      the pastries for the day into boxes."
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: "Guess you\u2019re getting off work early today."
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: "By the time you\u2019re done, there are seven boxes of pastries
+      waiting to be taken away by Dimitry."
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Sir, how are you going to move these\u2014"
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: As if on cue, Dimitry raises his hand, and four men in suits and
+      sunglasses walk into the cafe. They bow respectfully to him and take away the
+      boxes.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: Thanks, pastry boy.
+  - speakerName: Dimitry
+    speakerSprite: {fileID: 21300000, guid: 4d2b61a9f55238849ac15522dafebe4a, type: 3}
+    dialogueText: "I\u2019ll be back another day for more of the goods."
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Oh.. Okay\u2026"
+  - speakerName: You
+    speakerSprite: {fileID: 0}
+    dialogueText: "Thank you for your patronage\u2026?"
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: Dimitry turns and saunters out of the store and you realize that
+      you forgot to thank him for his money.
+  - speakerName: Narrator
+    speakerSprite: {fileID: 0}
+    dialogueText: "Another time then\u2026"
+  optionObjects: []

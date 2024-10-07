@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player Scripts\Inventory System.cs" />
     <Compile Include="Assets\Scripts\OptionObject.cs" />
+    <Compile Include="Assets\Scripts\GameStartManager.cs" />
     <Compile Include="Assets\Scripts\DialogueObject.cs" />
     <Compile Include="Assets\Scripts\UIHandler.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />

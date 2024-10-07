@@ -25,7 +25,7 @@ public class DialogueHandler : MonoBehaviour
         StartCoroutine(MoveThroughDialogue(dialogueObject));
     }
 
-    private IEnumerator MoveThroughDialogue(DialogueObject dialogueObject)
+    public IEnumerator MoveThroughDialogue(DialogueObject dialogueObject)
     {
         dialogueBox.SetActive(true);
         for(int i = 0; i < dialogueObject.dialogueLines.Length; i++)
@@ -33,7 +33,7 @@ public class DialogueHandler : MonoBehaviour
             DialogueLine currLine = dialogueObject.dialogueLines[i];
             dialogueText.text = currLine.dialogueText;
             speakerName.text = currLine.speakerName;
-            if (speakerImage != null)
+            if (currLine.speakerSprite != null)
             {
                 speakerImage.gameObject.SetActive(true);
                 speakerImage.sprite = currLine.speakerSprite;
