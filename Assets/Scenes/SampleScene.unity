@@ -249,7 +249,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17197399}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1252,10 +1252,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2076711866}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: -0.1, y: 1.1}
+  m_AnchorMax: {x: 1.1, y: 1.1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 100}
+  m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &249112395
 MonoBehaviour:
@@ -1279,15 +1279,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: You Got Pastry!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
+  m_sharedMaterial: {fileID: 2978293023575235861, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1304,15 +1304,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 87.2
+  m_fontSize: 122.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 12
-  m_fontSizeMax: 125
-  m_fontStyle: 33
+  m_fontSizeMax: 125.51
+  m_fontStyle: 21
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2048,17 +2048,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OK
+  m_text: COLLECT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
+  m_sharedMaterial: {fileID: 2978293023575235861, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2321,8 +2321,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
+  m_sharedMaterial: {fileID: 2978293023575235861, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2352,7 +2352,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 33
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2382,7 +2382,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -46.83194, y: 0, z: -50.62906, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12868,6 +12868,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &770830140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770830141}
+  - component: {fileID: 770830143}
+  - component: {fileID: 770830142}
+  m_Layer: 5
+  m_Name: ugotpastry BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &770830141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770830140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2076711866}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: -0.2, y: -0.2}
+  m_AnchorMax: {x: 1.2, y: 1.2}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &770830142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770830140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -668528314, guid: 0016a3d5f012da94c91363d3ad2d0caf, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 0.2
+--- !u!222 &770830143
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770830140}
+  m_CullTransparentMesh: 1
 --- !u!1 &783081688
 GameObject:
   m_ObjectHideFlags: 0
@@ -13476,8 +13551,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
+  m_sharedMaterial: {fileID: 2978293023575235861, guid: 146ca136a85dbef488986121a1c744aa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13501,8 +13576,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14380,48 +14455,127 @@ MonoBehaviour:
   - thisFish: {fileID: 21300000, guid: da80a6ab8490e08478fb44a51143cf65, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: did it!
+    - unlockNum: 0
+      unlockedDialogue: "Chocolate chip cookie \u2014 a classic."
+    - unlockNum: 5
+      unlockedDialogue: "There seems to be variations in the chocolate chip cookies'
+        softness at times. There are soft cookies and hard cookies. Regardless, it\u2019s
+        still a tasty treat and its softness can be identified by touch."
+    - unlockNum: 15
+      unlockedDialogue: "It\u2019s been discovered that the softness or hardness
+        of the cookie depends on the moisture content it receives and what type of
+        flour they consume to aid their growth. The chocolate chips can also be regulated
+        if we throw down semi-sweet chocolate chips, white chocolate, etc."
   - thisFish: {fileID: 21300000, guid: e78b9b767b676914d8847b9354a0cef3, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: unlocked
+    - unlockNum: 0
+      unlockedDialogue: A pastry shaped like a fish.
+    - unlockNum: 5
+      unlockedDialogue: "The taiyaki is crispy on the outside and filled with red
+        bean paste. It\u2019s a nice and warm sweet treat that\u2019s perfect when
+        paired with tea. Biting its face off first is funny."
+    - unlockNum: 15
+      unlockedDialogue: The filling and sweetness of the taiyaki can be changed by
+        the type of beans and amount of sugar we provide. So far, we have achieved
+        in making green bean filling, lotus seed filling, and chocolate, and even
+        ice cream.
   - thisFish: {fileID: 21300000, guid: 360289fc8997a2244b2a0accac9fbf82, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: yay!
+    - unlockNum: 0
+      unlockedDialogue: A basic slice of cake topped with a fresh strawberry.
+    - unlockNum: 5
+      unlockedDialogue: "Very fluffy. It\u2019s semi-sweet and pairs well with the
+        whipped cream and fruit slices in it. It comes already sliced when it\u2019s
+        fished up from the well."
+    - unlockNum: 15
+      unlockedDialogue: "An experiment with throwing down fruits has led to the conclusion
+        that fruits affect the Vanilla Cake \u2014 we threw down oranges, bananas
+        and peaches. Some time afterwards, we started fishing up cake with these
+        corresponding fruits in place of strawberries."
   - thisFish: {fileID: 21300000, guid: 81f2a4606830e3a4f9ebbb1acce00aef, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: 4 unlcoked
+    - unlockNum: 0
+      unlockedDialogue: Quaso~
+    - unlockNum: 5
+      unlockedDialogue: So many layers. Quaso~
+    - unlockNum: 15
+      unlockedDialogue: "A variation of the Croissant was discovered after a chocolate
+        supply was thrown into the well. We fished up croissants and chocolate croissants
+        with different styles \u2014 there were croissants filled with chocolate,
+        and croissants with chocolate layered into it."
   - thisFish: {fileID: 21300000, guid: 9c59d432025b77349b556240c2efee67, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: 5 unlocked
+    - unlockNum: 0
+      unlockedDialogue: "A gingerbread man with a questionable expression. He\u2019s
+        decorated with different colored frosting."
+    - unlockNum: 5
+      unlockedDialogue: Crunchy man cookie. Tastes like Christmas.
+    - unlockNum: 15
+      unlockedDialogue: "The gingerbread man has a variety of expressions it likes
+        to make \u2014 its frosting decoration also varies many times. We supplied
+        a ton of red and white frosting once, and fished up a gingerbread man in
+        a santa attire."
   - thisFish: {fileID: 21300000, guid: dc9af1648653142429e984cff6f415eb, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: Unlocked!
+    - unlockNum: 0
+      unlockedDialogue: A custard pastry shaped like a little pie.
+    - unlockNum: 5
+      unlockedDialogue: The crust of the egg tard is flaky and layered, with a buttery
+        taste. The custard itself is light and melts on the tongue easily.
+    - unlockNum: 15
+      unlockedDialogue: "There isn\u2019t much change to the egg tart despite attempted
+        experimentation with different variables such as sugar, flour and salt. The
+        biggest change was the crust coming in an extremely dense form, resembling
+        a cookie if anything."
   - thisFish: {fileID: 21300000, guid: 2bd8366f8c288a348a6d7a58ea75aef0, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: 7 unlocked
+    - unlockNum: 0
+      unlockedDialogue: "A cake, shaped like a log. It\u2019s a sheet of cake with
+        whipped cream rolled into a log. It is fluffy and not overly sweet."
+    - unlockNum: 5
+      unlockedDialogue: "The log cake is fun to unroll to eat \u2014 not the proper
+        way of eating it but it\u2019s funny when there\u2019s a strip of cake on
+        your plate. Nom nom nom."
+    - unlockNum: 15
+      unlockedDialogue: "The flavor of the cake can be changed and the filling also
+        can differ \u2014 we have made chocolate log cakes, poppy seed log cakes,
+        matcha log cakes and strawberry log cakes, with the addition of fruit slices
+        inside them."
   - thisFish: {fileID: 21300000, guid: 4a46d4b0233ec6740a8be1d92b5c78b5, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: 8 unlcoked
+    - unlockNum: 0
+      unlockedDialogue: "A steamed bun filled with char siu pork. It\u2019s shaped
+        like a cartoon pig."
+    - unlockNum: 5
+      unlockedDialogue: "It\u2019s soft \u2014 the bun is fluffy and warm, and the
+        char siu pork is sweet and savory without a hint of dryness. It\u2019s a
+        filling meal."
+    - unlockNum: 15
+      unlockedDialogue: "We are able to change the type of filling inside of the
+        bun, so that it is no longer limited to a pork bun. With this information,
+        it was found that it\u2019s possible to make both sweet and savory buns with
+        the pork bun blueprint."
   - thisFish: {fileID: 21300000, guid: ec3ca8367f4c2154e91ea4762ecccf42, type: 3}
     numOfFish: 0
     fishUnlockDialogues:
-    - unlockNum: 1
-      unlockedDialogue: 9  unlocked
+    - unlockNum: 0
+      unlockedDialogue: "\u2026This is a wedding cake. There are three layers, with
+        a bride and groom cake topper."
+    - unlockNum: 5
+      unlockedDialogue: It tastes lightly of strawberries and vanilla. There are
+        slices of strawberry inside of the cake, and the whipped cream is nice and
+        light.
+    - unlockNum: 10
+      unlockedDialogue: "The wedding cake is the pastry with the least amount of
+        variables that could be changed. The taste and shape can\u2019t be altered
+        \u2014 however the cake topping could be changed\u2026"
   fishingManager: {fileID: 1021656292}
   uiHandler: {fileID: 2096323061}
   newDay: 1
@@ -14766,7 +14920,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 260, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1286614380
 MonoBehaviour:
@@ -14812,16 +14966,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2076711865}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2076711867}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ComeOut
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1286614381
@@ -14844,7 +14998,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -1372411388, guid: 0016a3d5f012da94c91363d3ad2d0caf, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14853,7 +15007,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &1286614382
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15316,7 +15470,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522075646}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -15513,15 +15667,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: -539711856, guid: 0016a3d5f012da94c91363d3ad2d0caf, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15529,7 +15683,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.4
 --- !u!222 &1532817796
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20005,6 +20159,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2076711866}
+  - component: {fileID: 2076711867}
+  - component: {fileID: 2076711868}
   m_Layer: 5
   m_Name: U got fish UI
   m_TagString: Untagged
@@ -20024,6 +20180,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 770830141}
   - {fileID: 249112394}
   - {fileID: 1597843945}
   - {fileID: 1286614379}
@@ -20034,6 +20191,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &2076711867
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076711865}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7806b710021c6c54eb1487ea74cd3602, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2076711868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076711865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415fffdd6b65951409ad18cfda411718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pastryUI: {fileID: 2076711865}
 --- !u!1 &2079638711
 GameObject:
   m_ObjectHideFlags: 0
@@ -20266,15 +20457,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.99215686}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.99215686}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: -1372411388, guid: 0016a3d5f012da94c91363d3ad2d0caf, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -20282,7 +20473,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &2129308305
 CanvasRenderer:
   m_ObjectHideFlags: 0

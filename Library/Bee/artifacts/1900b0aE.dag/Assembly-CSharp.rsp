@@ -384,6 +384,7 @@
 "Assets/Scripts/DialogueObject.cs"
 "Assets/Scripts/FishObject.cs"
 "Assets/Scripts/OptionObject.cs"
+"Assets/Scripts/PastryUIHandler.cs"
 "Assets/Scripts/Player Scripts/DayManager.cs"
 "Assets/Scripts/Player Scripts/Desk Manager.cs"
 "Assets/Scripts/Player Scripts/FishingManager.cs"
