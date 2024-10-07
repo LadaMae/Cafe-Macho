@@ -13,6 +13,7 @@ public class DeskManager : MonoBehaviour
     public NPCData chosenNPC;
     public NPCData[] talkableNPCS;
     public bool talkedToday = false;
+    public UnityEngine.Vector3 startPos;
 
 
     void Start()
@@ -36,7 +37,6 @@ public class DeskManager : MonoBehaviour
     {
 
         // Move NPC up
-        yield return StartCoroutine(MoveNPCUp(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
 
         selectDialogue();
 
@@ -51,51 +51,22 @@ public class DeskManager : MonoBehaviour
 
         // Move NPC down coroutine
         //Commented in case we want to use it later
-        yield return StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
+        yield return StartCoroutine(MoveNPCOut(chosenNPC, chosenNPC.moveDuration));
 
         dayManager.incrementTalkCounter();
     }
 
-    public void moveNPCDownCO()
-    {
-        StartCoroutine(MoveNPCDown(chosenNPC, chosenNPC.moveDist, chosenNPC.moveDuration));
-    }
+    //public void moveNPCToDeskC0()
+    //{
+    //    yield return StartCoroutine(MoveNPCToDesk(chosenNPC, chosenNPC.moveDuration));
+    //}
 
-    // Coroutine to move the NPC up
-    public IEnumerator MoveNPCUp(NPCData npc, float distance, float duration)
-    {
-        UnityEngine.Vector3 startPos = npc.transform.position;
-        UnityEngine.Vector3 targetPos = startPos + new UnityEngine.Vector3(0, distance, 0);
+    //public void moveNPCOutCO()
+    //{
+    //    yield return StartCoroutine(MoveNPCOut(chosenNPC, chosenNPC.moveDuration));
+    //}
 
-        float elapsedTime = 0;
-
-        while (elapsedTime < duration)
-        {
-            npc.transform.position = UnityEngine.Vector3.Lerp(startPos, targetPos, (elapsedTime / duration));
-            elapsedTime += Time.deltaTime;
-            yield return null; // Wait for the next frame
-        }
-
-        npc.transform.position = targetPos; // Ensure exact position at the end
-    }
-
-    // Coroutine to move the NPC down
-    public IEnumerator MoveNPCDown(NPCData npc, float distance, float duration)
-    {
-        UnityEngine.Vector3 startPos = npc.transform.position;
-        UnityEngine.Vector3 targetPos = startPos - new UnityEngine.Vector3(0, distance, 0); // Subtract to move down
-
-        float elapsedTime = 0;
-
-        while (elapsedTime < duration)
-        {
-            npc.transform.position = UnityEngine.Vector3.Lerp(startPos, targetPos, (elapsedTime / duration));
-            elapsedTime += Time.deltaTime;
-            yield return null; // Wait for the next frame
-        }
-
-        npc.transform.position = targetPos; // Ensure exact position at the end
-    }
+    
 
     public void setNewDay()
     {
@@ -112,6 +83,8 @@ public class DeskManager : MonoBehaviour
                 chosenNPC = talkableNPCS[i];
             }
         }
+
+        StartCoroutine(MoveNPCToDesk(chosenNPC, chosenNPC.moveDuration));
 
         talkedToday = false;
 
@@ -142,5 +115,42 @@ public class DeskManager : MonoBehaviour
 
         chosenNPC.incrementReputation();
         Debug.Log("NPC reputation at " + chosenNPC.reputation);
+    }
+
+    public IEnumerator MoveNPCToDesk(NPCData npc, float duration)
+    {
+        startPos = npc.transform.position;
+        UnityEngine.Vector3 animStartPos = new UnityEngine.Vector3(-11, 2, 0);
+        UnityEngine.Vector3 targetPos = animStartPos + new UnityEngine.Vector3(3, 0, 0);
+
+        float elapsedTime = 0;
+
+        while (elapsedTime < duration)
+        {
+            npc.transform.position = UnityEngine.Vector3.Lerp(animStartPos, targetPos, (elapsedTime / duration));
+            elapsedTime += Time.deltaTime;
+            yield return null; // Wait for the next frame
+        }
+
+        npc.transform.position = targetPos; // Ensure exact position at the end
+    }
+
+    // Coroutine to move the NPC out of the scene
+    public IEnumerator MoveNPCOut(NPCData npc, float duration)
+    {
+        UnityEngine.Vector3 animStartPos = npc.transform.position;
+        UnityEngine.Vector3 targetPos = animStartPos + new UnityEngine.Vector3(-3, 0, 0);
+        UnityEngine.Vector3 origPos = startPos;
+
+        float elapsedTime = 0;
+
+        while (elapsedTime < duration)
+        {
+            npc.transform.position = UnityEngine.Vector3.Lerp(animStartPos, targetPos, (elapsedTime / duration));
+            elapsedTime += Time.deltaTime;
+            yield return null; // Wait for the next frame
+        }
+
+        npc.transform.position = origPos; // Return NPC to original position at the end
     }
 }
