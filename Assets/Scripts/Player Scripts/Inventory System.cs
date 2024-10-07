@@ -20,7 +20,9 @@ public class InventorySystem : MonoBehaviour
         foreach (FishObject fish in journalEntries)
         {
             FishJournalEntries.Add(fish.thisFish, fish);
+            fishCollection.Add(fish.thisFish, 0);
         }
+        Debug.Log(FishJournalEntries.Count);
     }
 
     public void addTotalFishCount()
