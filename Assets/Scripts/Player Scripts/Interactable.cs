@@ -28,6 +28,7 @@ public class Interactable : MonoBehaviour
         {
             isInRange = true;
             Debug.Log("player now in range");
+            Debug.Log(collision.gameObject.name); 
         }
     }
 
